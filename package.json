@@ -1,0 +1,8 @@
+{
+  "name": "imagine-arts-festival",
+  "version": "0.0.1",
+  "description": "A static website built using harp js for the imagine arts festival in waterford",
+  "dependencies": {
+    "harp": "^0.24.0"
+  }
+}
