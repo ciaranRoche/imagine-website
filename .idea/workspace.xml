@@ -2,365 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f37941d-f9de-4031-896d-ce669f69681d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/themes/default/assets/fonts/icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/themes/default/assets/fonts/icons.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/themes/default/assets/fonts/icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/themes/default/assets/fonts/icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/themes/default/assets/fonts/icons.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/themes/default/assets/images/flags.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/events/art/art1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/events/kila.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/events/music/music1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/events/theatre/performance1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/events/trad/trad1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/events/writers/writers1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/events/years1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/events/years2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/imagine.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/landing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/parallax1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/parallax2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/parallax3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/themes/default/assets/fonts/icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/themes/default/assets/fonts/icons.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/themes/default/assets/fonts/icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/themes/default/assets/fonts/icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/themes/default/assets/fonts/icons.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/themes/default/assets/images/flags.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/events/art/art1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/events/kila.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/events/music/music1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/events/theatre/performance1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/events/trad/trad1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/events/writers/writers1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/events/years1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/events/years2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/imagine.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/landing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/parallax1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/parallax2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/images/parallax3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/imagine.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/harp.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/accordion.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/accordion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/accordion.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/accordion.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/ad.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/ad.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/api.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/breadcrumb.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/breadcrumb.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/button.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/button.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/card.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/card.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/checkbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/checkbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/checkbox.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/checkbox.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/colorize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/colorize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/comment.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/comment.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/container.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/container.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/dimmer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/dimmer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/dimmer.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/dimmer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/divider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/divider.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/dropdown.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/dropdown.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/dropdown.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/embed.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/embed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/embed.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/embed.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/feed.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/feed.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/flag.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/flag.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/form.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/form.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/header.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/header.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/icon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/icon.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/image.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/image.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/input.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/input.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/item.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/item.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/label.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/label.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/list.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/list.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/loader.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/loader.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/menu.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/message.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/message.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/modal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/modal.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/modal.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/nag.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/nag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/nag.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/nag.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/popup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/popup.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/popup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/progress.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/progress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/progress.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/progress.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/rail.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/rail.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/rating.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/rating.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/rating.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/rating.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/reset.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/reveal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/reveal.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/search.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/search.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/search.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/segment.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/segment.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/shape.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/shape.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/shape.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/shape.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/sidebar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/sidebar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/sidebar.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/sidebar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/site.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/site.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/site.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/site.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/state.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/statistic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/statistic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/step.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/step.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/sticky.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/sticky.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/sticky.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/sticky.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/tab.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/tab.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/tab.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/table.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/transition.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/transition.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/transition.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/video.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/video.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/video.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/visibility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/visibility.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/visit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/components/visit.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/semantic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/semantic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/semantic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/semantic.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/themes/default/assets/fonts/icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/includes/_about.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/includes/_footer.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/includes/_header.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/includes/_imagine.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/includes/_lineupsummary.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/includes/_sponsors.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/strands/_layout.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/strands/events.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/README.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/accordion.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/accordion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/accordion.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/accordion.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/ad.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/ad.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/api.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/breadcrumb.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/breadcrumb.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/button.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/button.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/card.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/card.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/checkbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/checkbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/checkbox.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/checkbox.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/colorize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/colorize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/comment.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/comment.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/container.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/container.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/dimmer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/dimmer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/dimmer.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/dimmer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/divider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/divider.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/dropdown.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/dropdown.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/dropdown.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/embed.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/embed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/embed.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/embed.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/feed.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/feed.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/flag.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/flag.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/form.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/form.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/header.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/header.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/icon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/icon.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/image.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/image.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/input.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/input.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/item.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/item.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/label.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/label.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/list.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/list.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/loader.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/loader.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/menu.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/message.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/message.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/modal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/modal.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/modal.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/nag.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/nag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/nag.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/nag.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/popup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/popup.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/popup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/progress.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/progress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/progress.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/progress.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/rail.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/rail.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/rating.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/rating.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/rating.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/rating.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/reset.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/reveal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/reveal.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/search.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/search.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/search.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/segment.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/segment.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/shape.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/shape.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/shape.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/shape.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/sidebar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/sidebar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/sidebar.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/sidebar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/site.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/site.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/site.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/site.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/state.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/statistic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/statistic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/step.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/step.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/sticky.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/sticky.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/sticky.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/sticky.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/tab.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/tab.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/tab.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/table.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/transition.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/transition.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/transition.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/video.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/video.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/video.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/visibility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/visibility.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/visit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/components/visit.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/semantic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/semantic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/semantic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/semantic.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/css/themes/default/assets/fonts/icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/strands/events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -441,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -451,30 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -511,10 +130,10 @@
         <option value="$PROJECT_DIR$/public/includes/_spotlight.ejs" />
         <option value="$PROJECT_DIR$/public/index.ejs" />
         <option value="$PROJECT_DIR$/public/includes/_about.ejs" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -662,15 +281,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497188965517</updated>
-      <workItem from="1497188968011" duration="16016000" />
+      <workItem from="1497188968011" duration="16354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16016000" />
+    <option name="totallyTimeSpent" value="16354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -679,7 +299,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -915,14 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -946,6 +558,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
