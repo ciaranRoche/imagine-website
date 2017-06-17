@@ -6,7 +6,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .landing-head, .visual-art-head, .performance-head, .music-head , .trad-head ,.writer-head, .date-head{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -42,9 +42,34 @@ body, html {
 }
 
 .visual-art-head{
-    background-image: url("assets/images/events.jpg");
+    background-image: url("assets/images/visual-landing.jpeg");
+    min-height: 75%;
 }
 
+.performance-head{
+    background-image: url("assets/images/perfor-landing.jpg");
+    min-height: 75%;
+}
+
+.music-head{
+    background-image: url("assets/images/music-landing.jpeg");
+    min-height: 75%;
+}
+
+.trad-head{
+    background-image: url("assets/images/trad-landing.jpeg");
+    min-height: 75%;
+}
+
+.writer-head{
+    background-image: url("assets/images/writer-landing.jpg");
+    min-height: 75%;
+}
+
+.date-head{
+    background-image: url("assets/images/date-landing.jpg");
+    min-height: 75%;
+}
 
 .team-header{
     font-weight: bold;
@@ -58,6 +83,16 @@ body, html {
 .team-pos{
     font-size: 1em;
     border-bottom: solid 1px #8c8b8b;
+}
+
+.center-button{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 95%;
+    left: 52%;
+    margin-left: -48px;
+    margin-top: -25px;
 }
 
 .center-header {
