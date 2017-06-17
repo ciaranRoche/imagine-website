@@ -41,6 +41,26 @@ body, html {
     min-height: 75%;
 }
 
+.visual-art-head{
+    background-image: url("assets/images/events.jpg");
+    min-height: 75%;
+}
+
+
+.team-header{
+    font-weight: bold;
+    font-size: 1.55em;
+    margin-top: 7px;
+    padding-top: 5px;
+    line-height: .5;
+    color: #0f0f10;
+}
+
+.team-pos{
+    font-size: 1em;
+    border-bottom: solid 1px #8c8b8b;
+}
+
 .center-header {
     position: absolute;
     width: 100px;
@@ -50,6 +70,7 @@ body, html {
     margin-left: -50px; /* margin is -0.5 * dimension */
     margin-top: -25px;
 }​
+
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
