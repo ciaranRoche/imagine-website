@@ -13,12 +13,43 @@
 
 <div class="landing-head"></div>
 
-contact page
-
-
-
-
-
+<div class="ui container">
+    <br>
+    <h1 class="ui dividing header">
+        Contact Us
+    </h1>
+    <div class="ui stackable equal width grid">
+        <div class="ui column">
+            <img class="ui fluid image" src="assets/images/events/art/art1.jpg">
+        </div>
+        <div class="ui column">
+            <form class="ui form">
+                <div class="field">
+                    <label>Name</label>
+                    <input type="text" name="first-name" placeholder="First Name">
+                </div>
+                <div class="field">
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+                <div class="field">
+                    <label>Subject</label>
+                    <input type="text" name="subject" placeholder="Subject">
+                </div>
+                <div class="field">
+                    <label>Content</label>
+                    <textarea rows="2"></textarea>
+                </div>
+                <button class="ui fluid button" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+<br>
+<div class="ui horizontal divider">
+    Alternatively
+</div>
+<%- partial("includes/_contact.ejs")%>
 <%- partial("includes/_sponsors.ejs") %>
 <%- partial("includes/_footer.ejs") %>
 
