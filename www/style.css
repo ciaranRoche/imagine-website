@@ -95,6 +95,16 @@ body, html {
     margin-top: -25px;
 }
 
+.center-lineup{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top: 50%;
+    left: 40%;
+    margin-left: -50px;
+    margin-top: -25px;
+}
+
 .center-header {
     position: absolute;
     width: 100px;
