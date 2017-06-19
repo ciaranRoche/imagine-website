@@ -5,7 +5,20 @@
     <meta content="width=device-width,initial-scale=1.0" name="viewport">
     <link rel="stylesheet" href="assets/css/semantic.css" media="screen">
     <link rel="stylesheet" href="style.css">
+    <script src="//code.jquery.com/jquery-2.2.1.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.js"></script>
     <title>Imagine Festival</title>
+    <script>
+      $(document).ready(function() {
+        $('.ui.embed').embed({
+          source      : 'youtube',
+          id          : 'NNKLrGTl4pU',
+          placeholder : 'assets/images/landing.png'
+        });
+      });
+
+    </script>
+
 </head>
 <body>
 
@@ -43,4 +56,14 @@
 <%- partial("includes/_footer.ejs") %>
 
 </body>
+<script>
+
+	$('.custom.example .ui.embed').embed({
+		source      : 'youtube',
+		id          : 'O6Xo21L0ybE',
+		placeholder : '/images/bear-waving.jpg'
+	});
+
+
+</script>
 </html>
