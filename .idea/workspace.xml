@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f37941d-f9de-4031-896d-ce669f69681d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/Homepage - Semantic.htm" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contact.ejs" afterPath="$PROJECT_DIR$/public/contact.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/includes/_header.ejs" afterPath="$PROJECT_DIR$/public/includes/_header.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/includes/_imagine.ejs" afterPath="$PROJECT_DIR$/public/includes/_imagine.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/team.ejs" afterPath="$PROJECT_DIR$/public/team.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/timetable.ejs" afterPath="$PROJECT_DIR$/public/timetable.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,18 +26,48 @@
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="125" column="38" lean-forward="false" selection-start-line="125" selection-start-column="38" selection-end-line="125" selection-end-column="38" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="120" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_header.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/includes/_header.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1875">
-              <caret line="125" column="22" lean-forward="false" selection-start-line="125" selection-start-column="22" selection-end-line="125" selection-end-column="22" />
+            <state relative-caret-position="428">
+              <caret line="62" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_team.header.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/includes/_team.header.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="160" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_contact.header.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/includes/_contact.header.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="166" column="28" lean-forward="false" selection-start-line="166" selection-start-column="28" selection-end-line="166" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_imagine.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/includes/_imagine.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -40,8 +76,50 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="-1049">
               <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="team.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/team.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="113" column="23" lean-forward="false" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_timetable.header.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/includes/_timetable.header.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="168" column="27" lean-forward="false" selection-start-line="168" selection-start-column="27" selection-end-line="168" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="timetable.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/timetable.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-40">
+              <caret line="8" column="90" lean-forward="false" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/contact.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="676">
+              <caret line="113" column="31" lean-forward="false" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -76,11 +154,17 @@
         <option value="$PROJECT_DIR$/public/strands/_layout.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events.ejs" />
         <option value="$PROJECT_DIR$/www/Homepage.html" />
-        <option value="$PROJECT_DIR$/public/includes/_imagine.ejs" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/public/index.ejs" />
         <option value="$PROJECT_DIR$/public/style.css" />
+        <option value="$PROJECT_DIR$/public/includes/_imagine.ejs" />
         <option value="$PROJECT_DIR$/public/includes/_header.ejs" />
+        <option value="$PROJECT_DIR$/public/includes/_team.header.ejs" />
+        <option value="$PROJECT_DIR$/public/team.ejs" />
+        <option value="$PROJECT_DIR$/public/includes/_timetable.header.ejs" />
+        <option value="$PROJECT_DIR$/public/timetable.ejs" />
+        <option value="$PROJECT_DIR$/public/contact.ejs" />
+        <option value="$PROJECT_DIR$/public/includes/_contact.header.ejs" />
       </list>
     </option>
   </component>
@@ -97,7 +181,9 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -135,7 +221,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -150,6 +236,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,7 +433,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24903000" />
+    <option name="totallyTimeSpent" value="25861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -582,32 +672,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/includes/_imagine.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="-1049">
           <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="125" column="38" lean-forward="false" selection-start-line="125" selection-start-column="38" selection-end-line="125" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/includes/_header.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="125" column="22" lean-forward="false" selection-start-line="125" selection-start-column="22" selection-end-line="125" selection-end-column="22" />
+        <state relative-caret-position="428">
+          <caret line="62" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/team.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="113" column="23" lean-forward="false" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/includes/_timetable.header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="168" column="27" lean-forward="false" selection-start-line="168" selection-start-column="27" selection-end-line="168" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="120" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/timetable.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="8" column="90" lean-forward="false" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/contact.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="113" column="31" lean-forward="false" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/includes/_team.header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="160" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/includes/_contact.header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="166" column="28" lean-forward="false" selection-start-line="166" selection-start-column="28" selection-end-line="166" selection-end-column="28" />
           <folding />
         </state>
       </provider>
