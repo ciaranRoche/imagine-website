@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f37941d-f9de-4031-896d-ce669f69681d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/includes/_header.ejs" afterPath="$PROJECT_DIR$/public/includes/_header.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.ejs" afterPath="$PROJECT_DIR$/public/index.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/style.css" afterPath="$PROJECT_DIR$/public/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/contact.html" afterPath="$PROJECT_DIR$/www/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/aboutvisualart.html" afterPath="$PROJECT_DIR$/www/strands/aboutvisualart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/dateevent.html" afterPath="$PROJECT_DIR$/www/strands/dateevent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/events/test.html" afterPath="$PROJECT_DIR$/www/strands/events/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/mevent.html" afterPath="$PROJECT_DIR$/www/strands/mevent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/tevent.html" afterPath="$PROJECT_DIR$/www/strands/tevent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/tradevent.html" afterPath="$PROJECT_DIR$/www/strands/tradevent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/vaevent.html" afterPath="$PROJECT_DIR$/www/strands/vaevent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/volunteer.html" afterPath="$PROJECT_DIR$/www/strands/volunteer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/writerevent.html" afterPath="$PROJECT_DIR$/www/strands/writerevent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/style.css" afterPath="$PROJECT_DIR$/www/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/team.html" afterPath="$PROJECT_DIR$/www/team.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/timetable.html" afterPath="$PROJECT_DIR$/www/timetable.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,46 +20,24 @@
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
+            <state relative-caret-position="915">
               <caret line="125" column="38" lean-forward="true" selection-start-line="125" selection-start-column="38" selection-end-line="125" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_imagine.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/includes/_imagine.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Homepage - Semantic.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/Homepage - Semantic.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="732">
-              <caret line="228" column="8" lean-forward="true" selection-start-line="209" selection-start-column="2" selection-end-line="228" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_header.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/includes/_header.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1499505712000" expanded="true" signature="4599:4604" ph="..." />
-              </folding>
+            <state relative-caret-position="1029">
+              <caret line="177" column="0" lean-forward="true" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -117,9 +78,9 @@
         <option value="$PROJECT_DIR$/www/Homepage.html" />
         <option value="$PROJECT_DIR$/public/includes/_imagine.ejs" />
         <option value="$PROJECT_DIR$/www/index.html" />
-        <option value="$PROJECT_DIR$/public/includes/_header.ejs" />
         <option value="$PROJECT_DIR$/public/index.ejs" />
         <option value="$PROJECT_DIR$/public/style.css" />
+        <option value="$PROJECT_DIR$/public/includes/_header.ejs" />
       </list>
     </option>
   </component>
@@ -377,12 +338,12 @@
       <option name="presentableId" value="Default" />
       <updated>1497188965517</updated>
       <workItem from="1497188968011" duration="19505000" />
-      <workItem from="1499500914748" duration="3721000" />
+      <workItem from="1499500914748" duration="5390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23226000" />
+    <option name="totallyTimeSpent" value="24895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -447,9 +408,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-          <folding>
-            <marker date="1499505712000" expanded="true" signature="4599:4604" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -605,29 +564,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/includes/_imagine.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/css/semantic.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="10172" column="0" lean-forward="false" selection-start-line="10172" selection-start-column="0" selection-end-line="10172" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/includes/_header.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1499505712000" expanded="true" signature="4599:4604" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -639,10 +580,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.ejs">
+    <entry file="file://$PROJECT_DIR$/public/includes/_imagine.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="125" column="38" lean-forward="true" selection-start-line="125" selection-start-column="38" selection-end-line="125" selection-end-column="38" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -651,6 +592,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="125" column="38" lean-forward="true" selection-start-line="125" selection-start-column="38" selection-end-line="125" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/includes/_header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="177" column="0" lean-forward="true" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
           <folding />
         </state>
       </provider>
