@@ -1,13 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Imagine Festival</title>
     <meta charset="UTF-8">
-    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="assets/css/semantic.css" media="screen">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/semantic.css" media="screen">
     <script src="//code.jquery.com/jquery-2.2.1.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.js"></script>
-    <title>Imagine Festival</title>
+    <style type="text/css">
+        .hidden.menu {
+            display: none;
+        }
+        .masthead.segment {
+            min-height: 700px;
+            padding: 1em 0em;
+        }
+        .masthead .logo.item img {
+            margin-right: 1em;
+        }
+        .masthead .ui.menu .ui.button {
+            margin-left: 0.5em;
+        }
+        .masthead h1.ui.header {
+            margin-top: 3em;
+            margin-bottom: 0em;
+            font-size: 4em;
+            font-weight: normal;
+        }
+        .masthead h2 {
+            font-size: 1.7em;
+            font-weight: normal;
+        }
+        .ui.vertical.stripe {
+            padding: 8em 0em;
+        }
+        .ui.vertical.stripe h3 {
+            font-size: 2em;
+        }
+        .ui.vertical.stripe .button + h3,
+        .ui.vertical.stripe p + h3 {
+            margin-top: 3em;
+        }
+        .ui.vertical.stripe .floated.image {
+            clear: both;
+        }
+        .ui.vertical.stripe p {
+            font-size: 1.33em;
+        }
+        .ui.vertical.stripe .horizontal.divider {
+            margin: 3em 0em;
+        }
+        .quote.stripe.segment {
+            padding: 0em;
+        }
+        .quote.stripe.segment .grid .column {
+            padding-top: 5em;
+            padding-bottom: 5em;
+        }
+
+        .footer.segment {
+            padding: 5em 0em;
+        }
+
+        .secondary.pointing.menu .toc.item {
+            display: none;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .ui.fixed.menu {
+                display: none !important;
+            }
+            .secondary.pointing.menu .item,
+            .secondary.pointing.menu .menu {
+                display: none;
+            }
+            .secondary.pointing.menu .toc.item {
+                display: block;
+            }
+            .masthead.segment {
+                min-height: 350px;
+            }
+            .masthead h1.ui.header {
+                font-size: 2em;
+                margin-top: 1.5em;
+            }
+            .masthead h2 {
+                margin-top: 0.5em;
+                font-size: 1.5em;
+            }
+        }
+    </style>
+    <script src="assets/css/semantic.js"></script>
+    <script>
+			$(document).ready(function() {
+				// fix menu when passed
+				$('.masthead').visibility({
+					once: false,
+					onBottomPassed: function() {
+						$('.fixed.menu').transition('fade in');
+					},
+					onBottomPassedReverse: function() {
+						$('.fixed.menu').transition('fade out');
+					}
+				});
+				// create sidebar and attach to menu open
+				$('.ui.sidebar').sidebar('attach events', '.toc.item');
+			});
+    </script>
     <script>
       $(document).ready(function() {
         $('.ui.embed').embed({
@@ -16,77 +118,126 @@
           placeholder : 'assets/images/landing.png'
         });
       });
-
     </script>
 
 </head>
 <body>
 
+<!-- Following Menu -->
+<div class="ui large top fixed hidden menu">
+    <div class="ui container">
+        <a class="active item">Home</a>
+        <a class="item">Work</a>
+        <a class="item">Company</a>
+        <a class="item">Careers</a>
+        <div class="right menu">
+            <div class="item">
+                <a class="ui button">Log in</a>
+            </div>
+            <div class="item">
+                <a class="ui primary button">Sign Up</a>
+            </div>
+        </div>
+    </div>
+</div>
 
-<header>
-    <div class="ui six item top fixed borderless menu">
-      <div class="ui container">
-        <a class="ui item" href="../index.html">
-            Imagine Arts
-        </a>
-        <div class="ui simple dropdown item">
-            <span class="text">What's On</span>
-            <div class="menu">
-                <a class="ui item" href="../strands/vaevent.html">Visual Arts</a>
-                <a class="ui item" href="../strands/mevent.html">Music</a>
-                <a class="ui item" href="../strands/tevent.html">Theatre</a>
-                <div class="ui divider"></div>
-                <a class="ui item" href="../strands/tradevent.html">Trad Fest</a>
-                <a class="ui item" href="../strands/writerevent.html">Writers Weekend</a>
-                <div class="ui divider"></div>
-                <a class="ui item" href="../strands/dateevent.html">By Date</a>
+<!-- Sidebar Menu -->
+<div class="ui vertical inverted sidebar menu left">
+    <a class="active item">Home</a>
+    <a class="item">Work</a>
+    <a class="item">Company</a>
+    <a class="item">Careers</a>
+    <a class="item">Login</a>
+    <a class="item">Signup</a>
+</div>
+
+<!-- Page Contents -->
+<div class="pusher">
+    <div class="ui inverted vertical masthead center aligned segment">
+
+        <div class="ui container">
+            <div class="ui large secondary inverted pointing menu">
+                <a class="toc item">
+                    <i class="sidebar icon"></i>
+                </a>
+                <a class="active item">Home</a>
+                <a class="item">Work</a>
+                <a class="item">Company</a>
+                <a class="item">Careers</a>
+                <div class="right item">
+                    <a class="ui inverted button">Log in</a>
+                    <a class="ui inverted button">Sign Up</a>
+                </div>
             </div>
         </div>
 
-          <a class="ui item" href="../timetable.html">Timetable</a>
-
-        <div class="ui simple dropdown item">
-          <span class="text">The Festival</span>
-          <div class="menu">
-            <a class="ui item" href="../index.html/#about">About the Festival</a>
-            <a class="ui item" href="../team.html">Meet the Team</a>
-            <div class="ui divider"></div>
-            <a class="ui item" href="../strands/aboutvisualart.html">Visual Art</a>
-            <a class="ui item" href="#">Music</a>
-            <a class="ui item" href="#">Performance</a>
-            <div class="ui divider"></div>
-            <a class="ui item" href="#">Writers Weekend</a>
-            <a class="ui item" href="#">Trad Fest</a>
-          </div>
+        <div class="ui text container">
+            <h1 class="ui inverted header">
+                Imagine Arts Festival Waterford
+            </h1>
+            <h2>More than just art</h2>
+            <div class="ui huge primary button">Read More <i class="down arrow icon"></i></div>
         </div>
 
-        <div class="ui simple dropdown item">
-          <span class="text">Get Involved</span>
-          <div class="menu">
-            <a class="ui item" href="../strands/volunteer.html">Volunteer</a>
-            <a class="ui item" href="../strands/volunteer.html">Sponser</a>
-            <div class="ui divider"></div>
-            <a class="ui item" href="#">Social Media</a>
-            <a class="ui item" href="../contact.html">Contact Us</a>
-          </div>
-        </div>
-
-        <a class="ui item" href="../contact.html">Contact Us</a>
-    </div>
-  </div>
-</header>
-
-
-<div class="bgimg-1">
-    <div class="center-header">
-        <h1 class="ui green header">Imagine Arts Festival</h1>
-    </div>
-    <div class="center-button">
-        <button class="circular large ui icon button">
-            <a href="index.html/#home"><i class="large black arrow down icon"></i></a>
-        </button>
     </div>
 </div>
+</div>
+
+<!--<header>-->
+  <!--<div class="header">-->
+    <!--<div class="ui six item top fixed borderless menu">-->
+      <!--<div class="ui container">-->
+        <!--<a class="ui item" href="../index.html">-->
+            <!--Imagine Arts-->
+        <!--</a>-->
+        <!--<div class="ui simple dropdown item">-->
+            <!--<span class="text">What's On</span>-->
+            <!--<div class="menu">-->
+                <!--<a class="ui item" href="../strands/vaevent.html">Visual Arts</a>-->
+                <!--<a class="ui item" href="../strands/mevent.html">Music</a>-->
+                <!--<a class="ui item" href="../strands/tevent.html">Theatre</a>-->
+                <!--<div class="ui divider"></div>-->
+                <!--<a class="ui item" href="../strands/tradevent.html">Trad Fest</a>-->
+                <!--<a class="ui item" href="../strands/writerevent.html">Writers Weekend</a>-->
+                <!--<div class="ui divider"></div>-->
+                <!--<a class="ui item" href="../strands/dateevent.html">By Date</a>-->
+            <!--</div>-->
+        <!--</div>-->
+
+          <!--<a class="ui item" href="../timetable.html">Timetable</a>-->
+
+        <!--<div class="ui simple dropdown item">-->
+          <!--<span class="text">The Festival</span>-->
+          <!--<div class="menu">-->
+            <!--<a class="ui item" href="../index.html/#about">About the Festival</a>-->
+            <!--<a class="ui item" href="../team.html">Meet the Team</a>-->
+            <!--<div class="ui divider"></div>-->
+            <!--<a class="ui item" href="../strands/aboutvisualart.html">Visual Art</a>-->
+            <!--<a class="ui item" href="../strands/aboutmusic.html">Music</a>-->
+            <!--<a class="ui item" href="../strands/aboutvisualart.html">Performance</a>-->
+            <!--<div class="ui divider"></div>-->
+            <!--<a class="ui item" href="../strands/aboutwritersweekend.html">Writers Weekend</a>-->
+            <!--<a class="ui item" href="../strands/abouttradfest.html">Trad Fest</a>-->
+          <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="ui simple dropdown item">-->
+          <!--<span class="text">Get Involved</span>-->
+          <!--<div class="menu">-->
+            <!--<a class="ui item" href="../strands/volunteer.html">Volunteer</a>-->
+            <!--<a class="ui item" href="../strands/sponser.html">Sponser</a>-->
+            <!--<div class="ui divider"></div>-->
+            <!--<a class="ui item" href="../strands/socialmedia.html">Social Media</a>-->
+            <!--<a class="ui item" href="../contact.html">Contact Us</a>-->
+          <!--</div>-->
+        <!--</div>-->
+
+        <!--<a class="ui item" href="../contact.html">Contact Us</a>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->
+<!--</header>-->
+
 
 <div class="ui container" id="home">
     <br><br>
@@ -122,26 +273,26 @@
             <h3 class="ui dividing header">
                 Live Music
             </h3>
-            <img class="ui fluid image" href="#" src="../assets/images/events/music/music1.jpg" style="padding: 2%">
+            <a href="../strands/mevent.html"><img class="ui fluid image" href="#" src="../assets/images/events/music/music1.jpg" style="padding: 2%"></a>
         </div>
         <div class="column">
             <h3 class="ui dividing header">
                 Live Performance
             </h3>
-            <img class="ui fluid image" href="#" src="../assets/images/events/theatre/performance1.jpg" style="padding: 2%">
+            <a href="../strands/tevent.html"><img class="ui fluid image" href="#" src="../assets/images/events/theatre/performance1.jpg" style="padding: 2%"></a>
         </div>
         <div class="equal width row">
             <div class="column">
                 <h3 class="ui dividing header">
                     Trad Fest
                 </h3>
-                <img class="ui fluid image" href="#" src="../assets/images/events/trad/trad1.jpg" style="padding: 2%">
+                <a href="../strands/tradevent.html"><img class="ui fluid image" href="#" src="../assets/images/events/trad/trad1.jpg" style="padding: 2%"></a>
             </div>
             <div class="column">
                 <h3 class="ui dividing header">
                     Writers Weekend
                 </h3>
-                <img class="ui fluid image" href="#" src="../assets/images/events/writers/writers1.jpg" style="padding: 2%">
+                <a href="../strands/writerevent.html"><img class="ui fluid image" href="#" src="../assets/images/events/writers/writers1.jpg" style="padding: 2%"></a>
             </div>
         </div>
     </div>
@@ -150,10 +301,11 @@
     <br>
 </div>
 
+
 <div class="bgimg-3">
     <br><br><br><br><br><br>
-    <div class="ui vertical center aligned segment">
-        <a href="strands/dateevent.html"><h1 class="ui header">Full Line Up for 2017</h1></a>
+    <div class="ui vertical center aligned segment" style="border : solid 1px">
+        <a href="strands/dateevent.html"><h1 class="ui header">Full Line Up for 2017 <div class="sub header">Check out everything Imagine has to offer</div></h1></a>
     </div>
 </div>
 
@@ -177,6 +329,7 @@
         </div>
     </div>
 </div>
+
 <br>
 <div class="ui container" id="about">
     <br>
@@ -190,7 +343,7 @@
     <br>
     <div class="ui two column centered grid">
         <div class="ui column">
-            <img class="ui fluid image" src="../assets/images/events/years2.jpg">
+            <img class="ui fluid image transition visible" src="../assets/images/events/years2.jpg">
         </div>
     </div>
     <div class="ui vertical center aligned segment">
@@ -216,7 +369,32 @@
   <br>
 </div>
 
-<div class="bgimg-4"></div>
+
+<div class="bgimg-4">
+  <br><br><br><br><br><br>
+  <div class="ui vertical center aligned segment" style="border : solid 1px">
+      <a href="strands/volunteer.html"><h1 class="ui inverted header">Want to get involved?<div class="sub header">Voluteering - the heart of Imagine</div></h1></a>
+  </div>
+</div>
+
+<div class="ui container">
+  <br>
+  <h1 class="ui dividing header">Support Imagine</h1>
+
+    <div class="ui stackable equal width grid">
+        <div class="ui column">
+            <img class="ui fluid image" src="../assets/images/support.jpg">
+        </div>
+        <div class="ui column">
+            <br><br>
+            <h3>Imagine Arts Festival is proud that over 60% of our events are provided at no cost to our audiences</h3>
+            <h3>You can support the festival by making a contribution to our wristband collections at free events</h3>
+            <h3>Help us keep Imagine events free & allow us to Imagine even more</h3>
+
+        </div>
+    </div>
+
+
 <div class="ui container">
     <br>
     <div class="ui dividing header">
@@ -257,9 +435,65 @@
                     <img class="ui centered small image" src="../assets/images/sponsors/spon-2.jpg">
                 </div>
             </div>
+            <div class="ui divider"></div>
+            <div class="ui equal width row">
+                <div class="ui vertical center aligned segment">
+                    Our Festival Partners
+                </div>
+            </div>
+            <div class="ui stackable centered equal width grid">
+                <div class="column">
+                    <div class="ui vertical center aligned segment">
+                        <br>
+                        <img class="ui centered small image" src="../assets/images/sponsors/festpart/mediaPart1.jpg">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui vertical center aligned segment">
+                      <br>
+                        <img class="ui centered small image" src="../assets/images/sponsors/festpart/mediapart2.png">
+                    </div>
+                </div>
+                <div class="column">
+                    <br>
+                    <div class="ui vertical center aligned segment">
+                        <img class="ui centered small image" src="../assets/images/sponsors/festpart/mediapart3.jpg">
+                    </div>
+                </div>
+                <div class="column">
+                    <br>
+                    <div class="ui vertical center aligned segment">
+                        <img class="ui centered tiny image" src="../assets/images/sponsors/festpart/mediapar3.jpg">
+                    </div>
+                </div>
+                <div class="ui stackable centered equal width row">
+                  <div class="column">
+                    <div class="ui vertical center aligned segment">
+                      <img class="ui centered small image" src="../assets/images/sponsors/festpart/mediapart4.jpg">
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="ui vertical center aligned segment">
+                      <img class="ui centered small image" src="../assets/images/sponsors/festpart/mediapart5.gif">
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="ui vertical center aligned segment">
+                      <img class="ui centered tiny image" src="../assets/images/sponsors/festpart/mediapart7.jpg">
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="ui vertical center aligned segment">
+                      <img class="ui centered tiny image" src="../assets/images/sponsors/festpart/mediapart6.png">
+                    </div>
+                  </div>
+                </div>
+            </div>
         </div>
+
     </div>
 </section>
+
 <footer>
     <div class="ui divider"></div>
     <div class="ui vertical footer segment">
@@ -325,6 +559,9 @@
     </div>
 
 </footer>
+
+
+
 
 </body>
 
