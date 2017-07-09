@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f37941d-f9de-4031-896d-ce669f69681d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/includes/_support.ejs" afterPath="$PROJECT_DIR$/public/includes/_support.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/includes/_header.ejs" afterPath="$PROJECT_DIR$/public/includes/_header.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/includes/_includes-header.ejs" afterPath="$PROJECT_DIR$/public/includes/_includes-header.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.ejs" afterPath="$PROJECT_DIR$/public/index.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,7 +18,38 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/includes/_header.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="52" column="45" lean-forward="false" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_includes-header.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/includes/_includes-header.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,14 +82,15 @@
         <option value="$PROJECT_DIR$/public/includes/_team.header.ejs" />
         <option value="$PROJECT_DIR$/public/includes/_timetable.header.ejs" />
         <option value="$PROJECT_DIR$/public/includes/_contact.header.ejs" />
-        <option value="$PROJECT_DIR$/public/includes/_header.ejs" />
         <option value="$PROJECT_DIR$/public/team.ejs" />
         <option value="$PROJECT_DIR$/public/timetable.ejs" />
         <option value="$PROJECT_DIR$/public/contact.ejs" />
         <option value="$PROJECT_DIR$/public/includes/_about.ejs" />
         <option value="$PROJECT_DIR$/public/includes/_imagine.ejs" />
-        <option value="$PROJECT_DIR$/public/index.ejs" />
         <option value="$PROJECT_DIR$/public/includes/_support.ejs" />
+        <option value="$PROJECT_DIR$/public/includes/_header.ejs" />
+        <option value="$PROJECT_DIR$/public/includes/_includes-header.ejs" />
+        <option value="$PROJECT_DIR$/public/index.ejs" />
       </list>
     </option>
   </component>
@@ -168,6 +202,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imagine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imagine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,12 +399,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28171000" />
+    <option name="totallyTimeSpent" value="28637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -405,14 +462,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/includes/_header.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/timetable.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1303">
@@ -552,10 +601,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
           <caret line="122" column="0" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="122" selection-end-column="0" />
-          <folding>
-            <marker date="1499600650000" expanded="false" signature="7441:7459" ph="..." />
-            <marker date="1499600650000" expanded="false" signature="7836:7854" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -581,10 +627,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1499600650000" expanded="false" signature="7441:7459" ph="..." />
-            <marker date="1499600650000" expanded="false" signature="7836:7854" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -746,14 +789,6 @@
     <entry file="file://$PROJECT_DIR$/public/includes/_timetable.header.ejs" />
     <entry file="file://$PROJECT_DIR$/public/includes/_team.header.ejs" />
     <entry file="file://$PROJECT_DIR$/public/includes/_contact.header.ejs" />
-    <entry file="file://$PROJECT_DIR$/public/includes/_header.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="55" column="60" lean-forward="false" selection-start-line="55" selection-start-column="60" selection-end-line="55" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/team.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2805">
@@ -931,14 +966,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/includes/_header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="45" lean-forward="false" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/includes/_includes-header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="195" column="104" lean-forward="true" selection-start-line="195" selection-start-column="11" selection-end-line="195" selection-end-column="104" />
-          <folding>
-            <marker date="1499600650000" expanded="false" signature="7441:7459" ph="..." />
-            <marker date="1499600650000" expanded="false" signature="7836:7854" ph="..." />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
