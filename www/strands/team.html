@@ -1,170 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
     <meta content="width=device-width,initial-scale=1.0" name="viewport">
-    <link rel="stylesheet" href="assets/css/semantic.css" media="screen">
-    <link rel="stylesheet" href="style.css">
-    <title>Imagine Festival</title>
+    <link rel="stylesheet" href="../assets/css/semantic.css" media="screen">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title> Imagine Festival </title>
 </head>
 <body>
 
-<!-- Following Menu -->
-<div class="ui large top fixed hidden menu">
-    <div class="ui container">
-        <a class="active item">Home</a>
-        <a class="item">Work</a>
-        <a class="item">Company</a>
-        <a class="item">Careers</a>
-        <div class="right menu">
-            <div class="item">
-                <a class="ui button">Log in</a>
-            </div>
-            <div class="item">
-                <a class="ui primary button">Sign Up</a>
+<header>
+    <div class="ui large top fixed borderless menu">
+      <div class="ui container">
+        <a class="ui item" href=" ../index.html">
+            Imagine Arts
+        </a>
+        <div class="ui simple dropdown item">
+            <span class="text">What's On</span>
+            <div class="menu">
+                <a class="ui item" href="vaevent.html">Visual Arts</a>
+                <a class="ui item" href="mevent.html">Music</a>
+                <a class="ui item" href="tevent.html">Theatre</a>
+                <div class="ui divider"></div>
+                <a class="ui item" href="tradevent.html">Trad Fest</a>
+                <a class="ui item" href="writerevent.html">Writers Weekend</a>
+                <div class="ui divider"></div>
+                <a class="ui item" href="dateevent.html">By Date</a>
             </div>
         </div>
+
+        <a class="ui item" href="timetable.html">Timetable</a>
+
+        <div class="ui simple dropdown item">
+          <span class="text">The Festival</span>
+          <div class="menu">
+            <a class="ui item" href="../index.html/#about">About the Festival</a>
+            <a class="ui item" href="team.html">Meet the Team</a>
+            <div class="ui divider"></div>
+            <a class="ui item" href="aboutvisualart.html">Visual Art</a>
+            <a class="ui item" href="aboutmusic.html">Music</a>
+            <a class="ui item" href="aboutperformance.html">Performance</a>
+            <div class="ui divider"></div>
+            <a class="ui item" href="aboutwritersweekend.html">Writers Weekend</a>
+            <a class="ui item" href="abouttradfest.html">Trad Fest</a>
+          </div>
+        </div>
+
+        <div class="ui simple dropdown item">
+          <span class="text">Get Involved</span>
+          <div class="menu">
+            <a class="ui item" href="volunteer.html">Volunteer</a>
+            <a class="ui item" href="sponser.html">Sponser</a>
+            <div class="ui divider"></div>
+            <a class="ui item" href="socialmedia.html">Social Media</a>
+            <a class="ui item" href="contact.html">Contact Us</a>
+          </div>
+        </div>
+          <div class="right menu">
+              <div class="item">
+                  <a class="ui twitter button" href="https://twitter.com/Imagine_Fest"><i class="twitter icon"></i>Tweet</a>
+              </div>
+              <div class="item">
+                  <a class="ui facebook button" href="https://www.facebook.com/imaginewaterford/"><i class="facebook f icon"></i>Follow</a>
+              </div>
+          </div>
     </div>
-</div>
+  </div>
+</header>
 
-<!-- Sidebar Menu -->
-<div class="ui vertical inverted sidebar menu left">
-    <a class="active item">Home</a>
-    <a class="item">Work</a>
-    <a class="item">Company</a>
-    <a class="item">Careers</a>
-    <a class="item">Login</a>
-    <a class="item">Signup</a>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="../assets/css/semantic.css" media="screen">
+    <link rel="stylesheet" href="../style.css">
+    <title>Imagine Festival</title>
+    <script src="//code.jquery.com/jquery-2.2.1.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.js"></script>
+    <style type="text/css">
+        .hidden.menu {
+            display: none;
+        }
+        .masthead.segment {
+            min-height: 700px;
+            padding: 1em 0em;
+        }
+        .masthead .logo.item img {
+            margin-right: 1em;
+        }
+        .masthead .ui.menu .ui.button {
+            margin-left: 0.5em;
+        }
+        .masthead h1.ui.header {
+            margin-top: 3em;
+            margin-bottom: 0em;
+            font-size: 4em;
+            font-weight: normal;
+        }
+        .masthead h2 {
+            font-size: 1.7em;
+            font-weight: normal;
+        }
+        .ui.vertical.stripe {
+            padding: 8em 0em;
+        }
+        .ui.vertical.stripe h3 {
+            font-size: 2em;
+        }
+        .ui.vertical.stripe .button + h3,
+        .ui.vertical.stripe p + h3 {
+            margin-top: 3em;
+        }
+        .ui.vertical.stripe .floated.image {
+            clear: both;
+        }
+        .ui.vertical.stripe p {
+            font-size: 1.33em;
+        }
+        .ui.vertical.stripe .horizontal.divider {
+            margin: 3em 0em;
+        }
+        .quote.stripe.segment {
+            padding: 0em;
+        }
+        .quote.stripe.segment .grid .column {
+            padding-top: 5em;
+            padding-bottom: 5em;
+        }
 
-<!-- Page Contents -->
-<div class="pusher">
-    <div class="ui inverted vertical masthead center aligned segment">
+        .footer.segment {
+            padding: 5em 0em;
+        }
 
-        <div class="ui container">
-            <div class="ui large secondary inverted pointing menu">
-                <a class="toc item">
-                    <i class="sidebar icon"></i>
-                </a>
-                <a class="active item">Home</a>
-                <a class="item">Work</a>
-                <a class="item">Company</a>
-                <a class="item">Careers</a>
-                <div class="right item">
-                    <a class="ui inverted button">Log in</a>
-                    <a class="ui inverted button">Sign Up</a>
-                </div>
-            </div>
-        </div>
+        .secondary.pointing.menu .toc.item {
+            display: none;
+        }
 
-        <div class="ui text container">
-            <h1 class="ui inverted header">
-                Imagine Arts Festival Waterford
-            </h1>
-            <h2>More than just art</h2>
-            <div class="ui huge primary button">Read More <i class="down arrow icon"></i></div>
-        </div>
-
-    </div>
-</div>
-
-
-<!--<header>-->
-  <!--<div class="header">-->
-    <!--<div class="ui six item top fixed borderless menu">-->
-      <!--<div class="ui container">-->
-        <!--<a class="ui item" href="../index.html">-->
-            <!--Imagine Arts-->
-        <!--</a>-->
-        <!--<div class="ui simple dropdown item">-->
-            <!--<span class="text">What's On</span>-->
-            <!--<div class="menu">-->
-                <!--<a class="ui item" href="../strands/vaevent.html">Visual Arts</a>-->
-                <!--<a class="ui item" href="../strands/mevent.html">Music</a>-->
-                <!--<a class="ui item" href="../strands/tevent.html">Theatre</a>-->
-                <!--<div class="ui divider"></div>-->
-                <!--<a class="ui item" href="../strands/tradevent.html">Trad Fest</a>-->
-                <!--<a class="ui item" href="../strands/writerevent.html">Writers Weekend</a>-->
-                <!--<div class="ui divider"></div>-->
-                <!--<a class="ui item" href="../strands/dateevent.html">By Date</a>-->
-            <!--</div>-->
-        <!--</div>-->
-
-          <!--<a class="ui item" href="../timetable.html">Timetable</a>-->
-
-        <!--<div class="ui simple dropdown item">-->
-          <!--<span class="text">The Festival</span>-->
-          <!--<div class="menu">-->
-            <!--<a class="ui item" href="../index.html/#about">About the Festival</a>-->
-            <!--<a class="ui item" href="../team.html">Meet the Team</a>-->
-            <!--<div class="ui divider"></div>-->
-            <!--<a class="ui item" href="../strands/aboutvisualart.html">Visual Art</a>-->
-            <!--<a class="ui item" href="../strands/aboutmusic.html">Music</a>-->
-            <!--<a class="ui item" href="../strands/aboutvisualart.html">Performance</a>-->
-            <!--<div class="ui divider"></div>-->
-            <!--<a class="ui item" href="../strands/aboutwritersweekend.html">Writers Weekend</a>-->
-            <!--<a class="ui item" href="../strands/abouttradfest.html">Trad Fest</a>-->
-          <!--</div>-->
-        <!--</div>-->
-
-        <!--<div class="ui simple dropdown item">-->
-          <!--<span class="text">Get Involved</span>-->
-          <!--<div class="menu">-->
-            <!--<a class="ui item" href="../strands/volunteer.html">Volunteer</a>-->
-            <!--<a class="ui item" href="../strands/sponser.html">Sponser</a>-->
-            <!--<div class="ui divider"></div>-->
-            <!--<a class="ui item" href="../strands/socialmedia.html">Social Media</a>-->
-            <!--<a class="ui item" href="../contact.html">Contact Us</a>-->
-          <!--</div>-->
-        <!--</div>-->
-
-        <!--<a class="ui item" href="../contact.html">Contact Us</a>-->
-    <!--</div>-->
-  <!--</div>-->
-<!--</div>-->
-<!--</header>-->
+        @media only screen and (max-width: 700px) {
+            .ui.fixed.menu {
+                display: none !important;
+            }
+            .secondary.pointing.menu .item,
+            .secondary.pointing.menu .menu {
+                display: none;
+            }
+            .secondary.pointing.menu .toc.item {
+                display: block;
+            }
+            .masthead.segment {
+                min-height: 350px;
+            }
+            .masthead h1.ui.header {
+                font-size: 2em;
+                margin-top: 1.5em;
+            }
+            .masthead h2 {
+                margin-top: 0.5em;
+                font-size: 1.5em;
+            }
+        }
+    </style>
+    <script src="../assets/css/semantic.js"></script>
+    <script>
+			$(document).ready(function() {
+				// fix menu when passed
+				$('.masthead').visibility({
+					once: false,
+					onBottomPassed: function() {
+						$('.fixed.menu').transition('fade in');
+					},
+					onBottomPassedReverse: function() {
+						$('.fixed.menu').transition('fade out');
+					}
+				});
+				// create sidebar and attach to menu open
+				$('.ui.sidebar').sidebar('attach events', '.toc.item');
+			});
+    </script>
+</head>
+<body>
 
 
 <div class="landing-head"></div>
-<br><br>
+<br>
 <div class="ui container">
     <h1 class="ui dividing header">
         Meet the Team
     </h1>
     <div class="ui stackable equal width grid">
         <div class="ui column">
-            <img class="ui fluid image" src="assets/images/team/person-temp.jpeg">
+            <img class="ui fluid image" src="../assets/images/team/person-temp.jpeg">
             <div class="team-header">Name</div>
             <div class="team-pos">title</div>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
         </div>
         <div class="ui column">
-            <img class="ui fluid image" src="assets/images/team/person-temp.jpeg">
+            <img class="ui fluid image" src="../assets/images/team/person-temp.jpeg">
             <div class="team-header">Name</div>
             <div class="team-pos">title</div>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
         </div>
         <div class="ui column">
-            <img class="ui fluid image" src="assets/images/team/person-temp.jpeg">
+            <img class="ui fluid image" src="../assets/images/team/person-temp.jpeg">
             <div class="team-header">Name</div>
             <div class="team-pos">title</div>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
         </div>
         <div class="ui stackable equal width row">
             <div class="ui column">
-                <img class="ui fluid image" src="assets/images/team/person-temp.jpeg">
+                <img class="ui fluid image" src="../assets/images/team/person-temp.jpeg">
                 <div class="team-header">Name</div>
                 <div class="team-pos">title</div>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
             </div>
             <div class="ui column">
-                <img class="ui fluid image" src="assets/images/team/person-temp.jpeg">
+                <img class="ui fluid image" src="../assets/images/team/person-temp.jpeg">
                 <div class="team-header">Name</div>
                 <div class="team-pos">title</div>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
             </div>
             <div class="ui column">
-                <img class="ui fluid image" src="assets/images/team/person-temp.jpeg">
+                <img class="ui fluid image" src="../assets/images/team/person-temp.jpeg">
                 <div class="team-header">Name</div>
                 <div class="team-pos">title</div>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
@@ -174,6 +232,11 @@
     <br>
 </div>
 
+
+
+
+</body>
+</html>
 <section>
     <div class="ui container">
         <div class="ui divider"></div>

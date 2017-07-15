@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="../assets/css/semantic.css" media="screen">
+    <link rel="stylesheet" href="../style.css">
+    <title>Imagine Festival</title>
+    <script src="//code.jquery.com/jquery-2.2.1.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.js"></script>
+    <style type="text/css">
+        .hidden.menu {
+            display: none;
+        }
+        .masthead.segment {
+            min-height: 700px;
+            padding: 1em 0em;
+        }
+        .masthead .logo.item img {
+            margin-right: 1em;
+        }
+        .masthead .ui.menu .ui.button {
+            margin-left: 0.5em;
+        }
+        .masthead h1.ui.header {
+            margin-top: 3em;
+            margin-bottom: 0em;
+            font-size: 4em;
+            font-weight: normal;
+        }
+        .masthead h2 {
+            font-size: 1.7em;
+            font-weight: normal;
+        }
+        .ui.vertical.stripe {
+            padding: 8em 0em;
+        }
+        .ui.vertical.stripe h3 {
+            font-size: 2em;
+        }
+        .ui.vertical.stripe .button + h3,
+        .ui.vertical.stripe p + h3 {
+            margin-top: 3em;
+        }
+        .ui.vertical.stripe .floated.image {
+            clear: both;
+        }
+        .ui.vertical.stripe p {
+            font-size: 1.33em;
+        }
+        .ui.vertical.stripe .horizontal.divider {
+            margin: 3em 0em;
+        }
+        .quote.stripe.segment {
+            padding: 0em;
+        }
+        .quote.stripe.segment .grid .column {
+            padding-top: 5em;
+            padding-bottom: 5em;
+        }
+
+        .footer.segment {
+            padding: 5em 0em;
+        }
+
+        .secondary.pointing.menu .toc.item {
+            display: none;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .ui.fixed.menu {
+                display: none !important;
+            }
+            .secondary.pointing.menu .item,
+            .secondary.pointing.menu .menu {
+                display: none;
+            }
+            .secondary.pointing.menu .toc.item {
+                display: block;
+            }
+            .masthead.segment {
+                min-height: 350px;
+            }
+            .masthead h1.ui.header {
+                font-size: 2em;
+                margin-top: 1.5em;
+            }
+            .masthead h2 {
+                margin-top: 0.5em;
+                font-size: 1.5em;
+            }
+        }
+    </style>
+    <script src="../assets/css/semantic.js"></script>
+    <script>
+			$(document).ready(function() {
+				// fix menu when passed
+				$('.masthead').visibility({
+					once: false,
+					onBottomPassed: function() {
+						$('.fixed.menu').transition('fade in');
+					},
+					onBottomPassedReverse: function() {
+						$('.fixed.menu').transition('fade out');
+					}
+				});
+				// create sidebar and attach to menu open
+				$('.ui.sidebar').sidebar('attach events', '.toc.item');
+			});
+    </script>
+</head>
+<body>
+
+<%- partial("includes/_includes-header.ejs") %>
+<div class="landing-head"></div>
+<br>
+<div class="ui container">
+    <h1 class="ui dividing header">
+        Meet the Team
+    </h1>
+    <div class="ui stackable equal width grid">
+        <div class="ui column">
+            <img class="ui fluid image" src="../assets/images/team/rick.jpg" style="height: 350px">
+            <div class="team-header">Rick O'Shea</div>
+            <div class="team-pos">Literature Curator</div>
+            <p>Rick is an RTE DJ and he will curate the Waterford Writers Weekend, which amalgamated with the Imagine Arts Festival in 2016. Rick has been a radio presenter with RTE since 2001 both on RTE 2FM and as a presenter of The Poetry Programme on RTE Radio 1. He’s a regular arts and book event panelist, moderator and interviewer at festivals around the country.</p>
+        </div>
+        <div class="ui column">
+            <img class="ui fluid image" src="../assets/images/team/jenna.jpg" style="height: 350px">
+            <div class="team-header">Jenna Whelan</div>
+            <div class="team-pos">Visual Art and Education Curator</div>
+            <p>Jenna will focus on coordinating visual arts and children’s events for the festival. Jenna is a visual artist and Co-Director of GOMA Gallery of Modern Art. Living and working in Waterford she completed her MA by Research in Crawford College of Art. Following this she began working for the Cork Film Centre and the prestigious Lismore Castle Arts.
+            </p>
+        </div>
+        <div class="ui column">
+            <img class="ui fluid image" src="../assets/images/team/steve.jpg" style="height: 350px">
+            <div class="team-header">Stephen Butler</div>
+            <div class="team-pos">Theatre, Music and Special Events Curator</div>
+            <p>Stephen will focus on these genres including special commissions and music trails. Stephen is a local business owner with a passion for all things music. Owner and operator of Labyrinth Management & Events, which is a one-stop, shop Music Company that manages artists, bookings, music videos, marketing and produces events throughout the South East</p>
+        </div>
+        <div class="ui stackable equal width row">
+            <div class="ui column">
+                <img class="ui fluid image" src="../assets/images/team/person-temp.jpeg">
+                <div class="team-header">Name</div>
+                <div class="team-pos">title</div>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
+            </div>
+            <div class="ui column">
+                <img class="ui fluid image" src="../assets/images/team/person-temp.jpeg">
+                <div class="team-header">Name</div>
+                <div class="team-pos">title</div>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
+            </div>
+            <div class="ui column">
+                <img class="ui fluid image" src="../assets/images/team/person-temp.jpeg">
+                <div class="team-header">Name</div>
+                <div class="team-pos">title</div>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>
+
+<%- partial("includes/_sponsors.ejs") %>
+<%- partial("includes/_footer.ejs") %>
+
+</body>
+</html>

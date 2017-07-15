@@ -2,24 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <link rel="stylesheet" href="../../assets/css/semantic.css" media="screen">
     <link rel="stylesheet" href="../../style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
-
-    <script type="text/javascript">google.load("jquery", "1.3.2");</script>
-
-
+    <script src="//code.jquery.com/jquery-2.2.1.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.js"></script>
+    <script src="../../assets/css/semantic.js"></script>
+    <script>
+			$(document).ready(function() {
+				// fix menu when passed
+				$('.masthead').visibility({
+					once: false,
+					onBottomPassed: function() {
+						$('.fixed.menu').transition('fade in');
+					},
+					onBottomPassedReverse: function() {
+						$('.fixed.menu').transition('fade out');
+					}
+				});
+				// create sidebar and attach to menu open
+				$('.ui.sidebar').sidebar('attach events', '.toc.item');
+			});
+    </script>
     <title> Imagine Festival </title>
 </head>
 <body>
-
+<div class="pusher">
 <%- partial("/_header.ejs") %>
+<div class="landing-head"></div>
 <%- yield %>
 <%- partial("/_spotlight.ejs")%>
 <%- partial("/_sponsors.ejs") %>
 <%- partial("/_footer.ejs") %>
-
+</div>
 </body>
 </html>

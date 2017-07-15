@@ -4,5 +4,20 @@
   "description": "A static website built using harp js for the imagine arts festival in waterford",
   "dependencies": {
     "harp": "^0.24.0"
-  }
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciaranRoche/imagine-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ciaranRoche/imagine-website/issues"
+  },
+  "homepage": "https://github.com/ciaranRoche/imagine-website#readme"
 }

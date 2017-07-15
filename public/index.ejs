@@ -12,89 +12,6 @@
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
     <script src="//code.jquery.com/jquery-2.2.1.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.js"></script>
-    <style type="text/css">
-        .hidden.menu {
-            display: none;
-        }
-        .masthead.segment {
-            min-height: 800px;
-            padding: 1em 0em;
-        }
-        .masthead .logo.item img {
-            margin-right: 1em;
-        }
-        .masthead .ui.menu .ui.button {
-            margin-left: 0.5em;
-        }
-        .masthead h1.ui.header {
-            margin-top: 3em;
-            margin-bottom: 0em;
-            font-size: 4em;
-            font-weight: normal;
-        }
-        .masthead h2 {
-            font-size: 1.7em;
-            font-weight: normal;
-        }
-        .ui.vertical.stripe {
-            padding: 8em 0em;
-        }
-        .ui.vertical.stripe h3 {
-            font-size: 2em;
-        }
-        .ui.vertical.stripe .button + h3,
-        .ui.vertical.stripe p + h3 {
-            margin-top: 3em;
-        }
-        .ui.vertical.stripe .floated.image {
-            clear: both;
-        }
-        .ui.vertical.stripe p {
-            font-size: 1.33em;
-        }
-        .ui.vertical.stripe .horizontal.divider {
-            margin: 3em 0em;
-        }
-        .quote.stripe.segment {
-            padding: 0em;
-        }
-        .quote.stripe.segment .grid .column {
-            padding-top: 5em;
-            padding-bottom: 5em;
-        }
-
-        .footer.segment {
-            padding: 5em 0em;
-        }
-
-        .secondary.pointing.menu .toc.item {
-            display: none;
-        }
-
-        @media only screen and (max-width: 700px) {
-            .ui.fixed.menu {
-                display: none !important;
-            }
-            .secondary.pointing.menu .item,
-            .secondary.pointing.menu .menu {
-                display: none;
-            }
-            .secondary.pointing.menu .toc.item {
-                display: block;
-            }
-            .masthead.segment {
-                min-height: 350px;
-            }
-            .masthead h1.ui.header {
-                font-size: 2em;
-                margin-top: 1.5em;
-            }
-            .masthead h2 {
-                margin-top: 0.5em;
-                font-size: 1.5em;
-            }
-        }
-    </style>
     <script src="assets/css/semantic.js"></script>
     <script>
 			$(document).ready(function() {
@@ -120,6 +37,15 @@
           placeholder : 'assets/images/landing.png'
         });
       });
+    </script>
+    <script>
+        $(document).ready(function () {
+	        $('.event.example .image')
+		        .dimmer({
+			        on: 'hover'
+		        })
+	        ;
+        })
     </script>
 
 </head>
@@ -152,12 +78,12 @@
                         <a class="ui item" href="../strands/dateevent.html">By Date</a>
                     </div>
                 </div>
-                <a class="ui item" href="../timetable.html">Timetable</a>
+                <a class="ui item" href="../strands/timetable.html">Timetable</a>
                 <div class="ui simple dropdown item">
                     <span class="text">The Festival</span>
                     <div class="menu">
                         <a class="ui item" href="../index.html/#about">About the Festival</a>
-                        <a class="ui item" href="../team.html">Meet the Team</a>
+                        <a class="ui item" href="../strands/team.html">Meet the Team</a>
                         <div class="ui divider"></div>
                         <a class="ui item" href="../strands/aboutvisualart.html">Visual Art</a>
                         <a class="ui item" href="../strands/aboutmusic.html">Music</a>
@@ -175,7 +101,7 @@
                         <a class="ui item" href="../strands/sponser.html">Sponser</a>
                         <div class="ui divider"></div>
                         <a class="ui item" href="../strands/socialmedia.html">Social Media</a>
-                        <a class="ui item" href="../contact.html">Contact Us</a>
+                        <a class="ui item" href="../strands/contact.html">Contact Us</a>
                     </div>
                 </div>
 
