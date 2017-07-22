@@ -66,44 +66,10 @@
         .secondary.pointing.menu .toc.item {
             display: none;
         }
-
-        @media only screen and (max-width: 700px) {
-            .ui.fixed.menu {
-                display: none !important;
-            }
-            .secondary.pointing.menu .item,
-            .secondary.pointing.menu .menu {
-                display: none;
-            }
-            .secondary.pointing.menu .toc.item {
-                display: block;
-            }
-            .masthead.segment {
-                min-height: 350px;
-            }
-            .masthead h1.ui.header {
-                font-size: 2em;
-                margin-top: 1.5em;
-            }
-            .masthead h2 {
-                margin-top: 0.5em;
-                font-size: 1.5em;
-            }
-        }
     </style>
     <script src="../assets/css/semantic.js"></script>
     <script>
 			$(document).ready(function() {
-				// fix menu when passed
-				$('.masthead').visibility({
-					once: false,
-					onBottomPassed: function() {
-						$('.fixed.menu').transition('fade in');
-					},
-					onBottomPassedReverse: function() {
-						$('.fixed.menu').transition('fade out');
-					}
-				});
 				// create sidebar and attach to menu open
 				$('.ui.sidebar').sidebar('attach events', '.toc.item');
 			});
@@ -116,15 +82,9 @@
 <div class="landing-head"></div>
 
 <div class="ui container">
-    <br>
-    <h1 class="ui dividing header">
-        Contact Us
-    </h1>
-    <div class="ui stackable equal width grid">
-        <div class="ui column">
-            <img class="ui fluid image" src="../assets/images/events/art/art1.jpg">
-        </div>
-        <div class="ui column">
+    <div class="ui vertical stripe center aligned segment">
+        <div class="ui text container">
+            <h1 class="ui dividing header">Contact Us</h1>
             <form class="ui form">
                 <div class="field">
                     <label>Name</label>
@@ -146,12 +106,13 @@
             </form>
         </div>
     </div>
-</div>
-<br>
+  </div>
 <div class="ui horizontal divider">
     Alternatively
 </div>
-<%- partial("includes/_contact.ejs")%>
+<%- partial("../includes/_contact.ejs")%>
+<div class="ui divider"></div>
+<div class="bgimg-4"></div>
 <%- partial("includes/_sponsors.ejs") %>
 <%- partial("includes/_footer.ejs") %>
 
