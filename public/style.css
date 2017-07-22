@@ -7,7 +7,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .landing-head, .visual-art-head, .performance-head, .music-head , .trad-head ,.writer-head, .date-head{
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .landing-head, .visual-art-head, .performance-head, .music-head , .trad-head ,.writer-head, .date-head{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,6 +35,11 @@ body, html {
 .bgimg-4{
     background-image: url("assets/images/parallax3.jpg");
     min-height: 400px;
+}
+
+.bgimg-5{
+  background-image: url("assets/images/test.jpg");
+  min-height: 500px;
 }
 
 .landing-head{
@@ -123,7 +128,7 @@ body, html {
     display: none;
 }
 .masthead.segment {
-    min-height: 800px;
+    min-height: 600px;
     padding: 1em 0em;
 }
 .masthead .logo.item img {

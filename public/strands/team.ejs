@@ -8,65 +8,6 @@
     <title>Imagine Festival</title>
     <script src="//code.jquery.com/jquery-2.2.1.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.js"></script>
-    <style type="text/css">
-        .hidden.menu {
-            display: none;
-        }
-        .masthead.segment {
-            min-height: 700px;
-            padding: 1em 0em;
-        }
-        .masthead .logo.item img {
-            margin-right: 1em;
-        }
-        .masthead .ui.menu .ui.button {
-            margin-left: 0.5em;
-        }
-        .masthead h1.ui.header {
-            margin-top: 3em;
-            margin-bottom: 0em;
-            font-size: 4em;
-            font-weight: normal;
-        }
-        .masthead h2 {
-            font-size: 1.7em;
-            font-weight: normal;
-        }
-        .ui.vertical.stripe {
-            padding: 8em 0em;
-        }
-        .ui.vertical.stripe h3 {
-            font-size: 2em;
-        }
-        .ui.vertical.stripe .button + h3,
-        .ui.vertical.stripe p + h3 {
-            margin-top: 3em;
-        }
-        .ui.vertical.stripe .floated.image {
-            clear: both;
-        }
-        .ui.vertical.stripe p {
-            font-size: 1.33em;
-        }
-        .ui.vertical.stripe .horizontal.divider {
-            margin: 3em 0em;
-        }
-        .quote.stripe.segment {
-            padding: 0em;
-        }
-        .quote.stripe.segment .grid .column {
-            padding-top: 5em;
-            padding-bottom: 5em;
-        }
-
-        .footer.segment {
-            padding: 5em 0em;
-        }
-
-        .secondary.pointing.menu .toc.item {
-            display: none;
-        }
-    </style>
     <script src="../assets/css/semantic.js"></script>
     <script>
 			$(document).ready(function() {
@@ -78,9 +19,18 @@
 <body>
 
 <%- partial("includes/_includes-header.ejs") %>
-<div class="landing-head"></div>
+<div class="bgimg-5">
+  <div class="ui masthead vertical stripe center aligned segment">
+      <div class="ui text container">
+        <h1 class="ui inverted header">
+            Meet our Team
+        </h1>
+        <a class="ui huge primary button" href="#home">Read More <i class="down arrow icon"></i></a>
+      </div>
+  </div>
+</div>
 <br>
-<div class="ui container">
+<div class="ui container"  id="home">
   <br>
     <h1 class="ui dividing header">
         Meet the Team
