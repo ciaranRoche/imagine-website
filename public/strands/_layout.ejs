@@ -2,18 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <link rel="stylesheet" href="../assets/css/semantic.css" media="screen">
     <link rel="stylesheet" href="../style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <script src="//code.jquery.com/jquery-2.2.1.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.js"></script>
+    <script src="../assets/css/semantic.js"></script>
+    <script>
+      $(document).ready(function() {
+        // create sidebar and attach to menu open
+        $('.ui.sidebar').sidebar('attach events', '.toc.item');
+      });
+    </script>
     <title> Imagine Festival </title>
 </head>
 <body>
-
 <%- partial("../includes/_includes-header.ejs") %>
 <%- yield %>
 <%- partial("../includes/_sponsors.ejs") %>
 <%- partial("../includes/_footer.ejs") %>
-
 </body>
 </html>
