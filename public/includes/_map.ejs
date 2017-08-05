@@ -1,0 +1,57 @@
+
+<div id="map">
+<div class="ui container" style="filter: grayscale(100%)">
+        <div class="ui dividing header">
+            <h2>Imagine Points of Interest</h2>
+        </div>
+
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBf0DP5306YcsIqZm-Ly-dNjxoAMUHuwZU&callback=init"
+            type="text/javascript"></script>
+    <div id="map_canvas" style="height: 400px"></div>
+    <script>
+	    var locations = [
+		    ['GOMA Gallery of Modern Art', 52.2594229, -7.1052349, 4],
+		    ['Garter Lane Arts Centre', 52.261858, -7.114551, 5],
+		    ['Theatre Royal', 52.259673, -7.106834, 3],
+		    ['Central Arts', 52.260577, -7.1065208, 2],
+		    ['Greyfriars Municipal Art Gallery', 52.2606213, -7.1068271, 1]
+	    ];
+	    var map;
+	    var markers = [];
+
+	    function init(){
+		    map = new google.maps.Map(document.getElementById('map_canvas'), {
+			    zoom: 15,
+			    center: new google.maps.LatLng(52.2593197, -7.1100703),
+			    mapTypeId: google.maps.MapTypeId.ROADMAP
+		    });
+
+		    var num_markers = locations.length;
+		    for (var i = 0; i < num_markers; i++) {
+			    markers[i] = new google.maps.Marker({
+				    position: {lat:locations[i][1], lng:locations[i][2]},
+				    map: map,
+				    html: locations[i][0],
+				    id: i,
+			    });
+
+			    google.maps.event.addListener(markers[i], 'click', function(){
+				    var infowindow = new google.maps.InfoWindow({
+					    id: this.id,
+					    content:this.html,
+					    position:this.getPosition()
+								    });
+							    google.maps.event.addListenerOnce(infowindow, 'closeclick', function(){
+								    markers[this.id].setVisible(true);
+							    });
+							    this.setVisible(false);
+							    infowindow.open(map);
+						    });
+				    }
+		    }
+
+		    init();
+    </script>
+</div>
+</div>

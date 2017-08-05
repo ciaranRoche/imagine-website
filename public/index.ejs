@@ -39,6 +39,7 @@
     </script>
 </head>
 <body>
+<div class="pusher">
 
 <!-- Page Contents -->
 
@@ -59,7 +60,7 @@
 
 <%- partial("includes/_lineupsummary")%>
 
-<div class="bgimg-3">
+<div class="bgimg-3" style="filter: opacity(75%)">
     <br><br><br><br><br><br>
     <div class="ui vertical center aligned segment" style="border : solid 1px">
         <a href="strands/dateevent.html"><h1 class="ui inverted header">Full Line Up for 2017 <div class="sub header">Check out everything Imagine has to offer</div></h1></a>
@@ -70,7 +71,7 @@
 <br>
 <%- partial("includes/_about")%>
 
-<div class="bgimg-4">
+<div class="bgimg-4" style="filter: opacity(75%)">
   <br><br><br><br><br><br>
   <div class="ui vertical center aligned segment" style="border : solid 1px">
       <a href="strands/volunteer.html"><h1 class="ui inverted header">Want to get involved?<div class="sub header">Volunteering - the heart of Imagine</div></h1></a>
@@ -82,9 +83,14 @@
 
 <%- partial("includes/_highlights.ejs")%>
 
+    <%- partial("includes/_spotlight-main.ejs") %>
+
+<%- partial("includes/_map.ejs")%>
+
 <%- partial("includes/_sponsors.ejs") %>
 <%- partial("includes/_footer.ejs") %>
 
+</div>
 
 </body>
 
