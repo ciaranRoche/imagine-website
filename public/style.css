@@ -14,10 +14,20 @@ body, html {
     background-size: cover;
 }
 
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgimg-cv1,
+    .bgimg-cv2 {
+        background-attachment: scroll;
+    }
+}
+
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('assets/images/imagine-logo.png');
-    min-height: 800px;
+    background: #4A2B2A;
+    min-height: 400px;
 }
 
 /* Second image (Portfolio) */
@@ -128,7 +138,7 @@ body, html {
     display: none;
 }
 .masthead.segment {
-    min-height: 600px;
+    min-height: 400px;
     padding: 1em 0em;
 }
 .masthead .logo.item img {
