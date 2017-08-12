@@ -38,7 +38,7 @@ body, html {
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url("assets/images/parallax2.jpg");
+    background: #4A2B2A;
     min-height: 400px;
 }
 
