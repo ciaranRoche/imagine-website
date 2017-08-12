@@ -16,8 +16,8 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('assets/images/parallax1.jpg');
-    min-height: 100%;
+    background-image: url('assets/images/imagine-logo.png');
+    min-height: 800px;
 }
 
 /* Second image (Portfolio) */
