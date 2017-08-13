@@ -48,8 +48,8 @@ body, html {
 }
 
 .bgimg-5{
-  background-image: url("assets/images/test.jpg");
-  min-height: 500px;
+  background: #4A2B2A;
+  min-height: 400px;
 }
 
 .landing-head{
