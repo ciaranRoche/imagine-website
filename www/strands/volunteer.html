@@ -2,90 +2,96 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <link rel="stylesheet" href="../assets/css/semantic.css" media="screen">
     <link rel="stylesheet" href="../style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <script src="//code.jquery.com/jquery-2.2.1.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.js"></script>
+    <script src="../assets/css/semantic.js"></script>
+    <script>
+      $(document).ready(function() {
+        // create sidebar and attach to menu open
+        $('.ui.sidebar').sidebar('attach events', '.toc.item');
+      });
+    </script>
     <title> Imagine Festival </title>
 </head>
 <body>
-
-<header>
-    <div class="ui large top fixed borderless menu">
-      <div class="ui container">
-        <a class="ui item" href=" ../index.html">
-            Imagine Arts
-        </a>
-        <div class="ui simple dropdown item">
-            <span class="text">What's On</span>
-            <div class="menu">
-                <a class="ui item" href="vaevent.html">Visual Arts</a>
-                <a class="ui item" href="mevent.html">Music</a>
-                <a class="ui item" href="tevent.html">Theatre</a>
-                <div class="ui divider"></div>
-                <a class="ui item" href="tradevent.html">Trad Fest</a>
-                <a class="ui item" href="writerevent.html">Writers Weekend</a>
-                <div class="ui divider"></div>
-                <a class="ui item" href="dateevent.html">By Date</a>
-            </div>
-        </div>
-
-        <a class="ui item" href="timetable.html">Timetable</a>
-
-        <div class="ui simple dropdown item">
-          <span class="text">The Festival</span>
-          <div class="menu">
-            <a class="ui item" href="../index.html/#about">About the Festival</a>
-            <a class="ui item" href="team.html">Meet the Team</a>
-            <div class="ui divider"></div>
-            <a class="ui item" href="aboutvisualart.html">Visual Art</a>
-            <a class="ui item" href="aboutmusic.html">Music</a>
-            <a class="ui item" href="aboutperformance.html">Performance</a>
-            <div class="ui divider"></div>
-            <a class="ui item" href="aboutwritersweekend.html">Writers Weekend</a>
-            <a class="ui item" href="abouttradfest.html">Trad Fest</a>
-          </div>
-        </div>
-
-        <div class="ui simple dropdown item">
-          <span class="text">Get Involved</span>
-          <div class="menu">
-            <a class="ui item" href="volunteer.html">Volunteer</a>
-            <a class="ui item" href="sponser.html">Sponser</a>
-            <div class="ui divider"></div>
-            <a class="ui item" href="socialmedia.html">Social Media</a>
-            <a class="ui item" href="contact.html">Contact Us</a>
-          </div>
-        </div>
-          <div class="right menu">
-              <div class="item">
-                  <a class="ui twitter button" href="https://twitter.com/Imagine_Fest"><i class="twitter icon"></i>Tweet</a>
-              </div>
-              <div class="item">
-                  <a class="ui facebook button" href="https://www.facebook.com/imaginewaterford/"><i class="facebook f icon"></i>Follow</a>
-              </div>
-          </div>
+  <!-- Following Menu -->
+  <div class="ui large top fixed borderless inverted  menu">
+    <div class="ui container">
+      <a class="toc item">
+        <i class="sidebar icon"></i>
+        Imagine Arts Festival
+      </a>
     </div>
   </div>
-</header>
 
-<div class="landing-head"></div>
-<div class="ui container">
-    <br>
-    <div class="ui dividing header">
-        Get Involved
+
+  <!-- Sidebar Menu -->
+  <div class="ui vertical inverted sidebar menu left">
+      <a class="ui item" href="../index.html">
+          Imagine Arts
+      </a>
+      <a class="ui item" href="timetable.html">Timetable</a>
+      <div class="item">
+          <div class="ui small inverted header">What's On</div>
+      </div>
+      <div class="menu">
+      <a class="ui item" href="vaevent.html">Visual Arts</a>
+      <a class="ui item" href="mevent.html">Music</a>
+      <a class="ui item" href="tevent.html">Performance</a>
+      <a class="ui item" href="tradevent.html">John Dwyer Trad Fest</a>
+      <a class="ui item" href="writerevent.html">Writers Weekend</a>
+      <a class="ui item" href="dateevent.html">Children's Events</a>
+      </div>
+      <div class="item">
+          <div class="ui small inverted header">The Festival</div>
+      </div>
+      <div class="menu">
+          <a class="ui item" href="../index.html/#about">About the Festival</a>
+          <a class="ui item" href="team.html">Meet the Team</a>
+          <a class="ui item" href="../index.html/#map">Points of Interest</a>
+      </div>
+      <div class="item">
+          <div class="ui small inverted header">Get Involved</div>
+      </div>
+      <div class="menu">
+          <a class="ui item" href="volunteer.html">Volunteer</a>
+          <a class="ui item" href="sponser.html">Sponser</a>
+          <a class="ui item" href="socialmedia.html">Social Media</a>
+          <a class="ui item" href="contact.html">Contact Us</a>
+      </div>
+  </div>
+
+<div class="bgimg-5">
+  <div class="ui masthead vertical stripe center aligned segment">
+    <div class="ui text container">
+        <img class="ui fluid image" src="../../assets/images/volunteer.png">
+        <a class="ui secondary basic button" href="#home">Read More <i class="down arrow icon"></i></a>
     </div>
-    <div class="ui stackable equal width grid">
-        <div class="ui column">
-            <img class="ui fluid image" src="../assets/images/parallax3.jpg">
-        </div>
-        <div class="ui column">
-            <br>
-            <h3 class="ui header">
-                Want to Help Out
-            </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Graccho, eius fere, aequalí? Vos autem cum perspicuis dubia debeatis illustrare, dubiis perspicua conamini tollere. Quam tu ponis in verbis, ego positam in re putabam. Sed haec quidem liberius ab eo dicuntur et saepius. Experiamur igitur, inquit, etsi habet haec Stoicorum ratio difficilius quiddam et obscurius. Duo Reges: constructio interrete. Tu enim ista lenius, hic Stoicorum more nos vexat. Minime vero istorum quidem, inquit. Rationis enim perfectio est virtus;</p>
-            <a href="../contact.html"><button class="ui fluid blue button">Contact Us</button></a>
+  </div>
+</div>
+<div class="ui vertical stripe center aligned segment" id="home">
+    <div class="ui text container">
+        <h3 class="ui dividing header">How To Get Involved</h3>
+        <p>Imagine Arts Festival run over 100 events across 10 days.</p>
+        <p>With out the help of our volunteers this would not be possible.</p>
+        <p>If you want to get involved with an inviting and social group of people.</p>
+        <p>Do not hesitate to contact us today to discuss how to get involved.</p>
+        <a class="ui secondary basic button" href="./contact.html">Contact Us  <i class="send outline icon"></i></a>
+    </div>
+</div>
+<div class="bgimg-3">
+    <div class="ui vertical stripe center aligned segment">
+        <div class="ui text container">
+            <h1 class="ui inverted header">Need to know more?</h1>
+            <p>Imagine is now its 16th year and has grown to be one of Irelands premier arts festivals.</p>
+            <a class="ui secondary basic button" href="../index.html#about">Click for More</a>
         </div>
     </div>
 </div>
@@ -176,64 +182,37 @@
 
 <footer>
     <div class="ui divider"></div>
-    <div class="ui vertical footer segment">
+    <div class="ui vertical footer inverted segment">
         <div class="ui center aligned container">
             <div class="ui stackable inverted divided grid">
                 <div class="three wide column">
-                    <h4 class="ui header">Visual Arts</h4>
-                    <div class="ui link list">
-                        <a href="https://www.google.ie" class="item">Link One</a>
-                        <a href="https://www.google.ie" class="item">Link Two</a>
-                        <a href="https://www.google.ie" class="item">Link Three</a>
-                        <a href="https://www.google.ie" class="item">Link Four</a>
-                    </div>
+                    <h4 class="ui inverted header">Visual Arts</h4>
+
                 </div>
                 <div class="three wide column">
-                    <h4 class="ui header">Live Music</h4>
-                    <div class="ui link list">
-                        <a href="https://www.google.ie" class="item">Link One</a>
-                        <a href="https://www.google.ie" class="item">Link Two</a>
-                        <a href="https://www.google.ie" class="item">Link Three</a>
-                        <a href="https://www.google.ie" class="item">Link Four</a>
-                    </div>
+                    <h4 class="ui inverted header">Live Music</h4>
+
                 </div>
                 <div class="three wide column">
-                    <h4 class="ui header">Theatre</h4>
-                    <div class="ui link list">
-                        <a href="https://www.google.ie" class="item">Link One</a>
-                        <a href="https://www.google.ie" class="item">Link Two</a>
-                        <a href="https://www.google.ie" class="item">Link Three</a>
-                        <a href="https://www.google.ie" class="item">Link Four</a>
-                    </div>
+                    <h4 class="ui inverted header">Theatre</h4>
+
                 </div>
                 <div class="three wide column">
-                    <h4 class="ui header">Trad Weekend</h4>
-                    <div class="ui link list">
-                        <a href="https://www.google.ie" class="item">Link One</a>
-                        <a href="https://www.google.ie" class="item">Link Two</a>
-                        <a href="https://www.google.ie" class="item">Link Three</a>
-                        <a href="https://www.google.ie" class="item">Link Four</a>
-                    </div>
+                    <h4 class="ui inverted header">Trad Weekend</h4>
+
                 </div>
                 <div class="three wide column">
-                    <h4 class="ui header">Writers Weekend</h4>
-                    <div class="ui link list">
-                        <a href="https://www.google.ie" class="item">Link One</a>
-                        <a href="https://www.google.ie" class="item">Link Two</a>
-                        <a href="https://www.google.ie" class="item">Link Three</a>
-                        <a href="https://www.google.ie" class="item">Link Four</a>
-                    </div>
+                    <h4 class="ui inverted header">Writers Weekend</h4>
+                  
                 </div>
             </div>
             <div class="ui section divider"></div>
-            <img src="../assets/images/imagine.png" class="ui centered tiny image">
-            <div class="ui horizontal small divided link list">
-                <a class="item" href="https://www.google.ie"><i class="large facebook square icon"></i></a>
-                <a class="item" href="https://www.google.ie"><i class="large google plus square icon"></i></a>
-                <a class="item" href="https://www.google.ie"><i class="large instagram icon"></i></a>
-                <a class="item" href="https://www.google.ie"><i class="large snapchat square icon"></i></a>
-                <a class="item" href="https://www.google.ie"><i class="large twitter square icon"></i></a>
-                <a class="item" href="https://www.google.ie"><i class="large vimeo square icon"></i></a>
+            <img class="ui centered small image" src="../assets/images/imagine-logo-2.png">
+            <div class="ui inverted horizontal small divided link list">
+                <a class="item" href="https://www.facebook.com/imaginewaterford/"><i class="large facebook square icon"></i></a>
+                <a class="item" href="https://www.instagram.com/imagineartsfest/"><i class="large instagram icon"></i></a>
+                <a class="item" href="https://twitter.com/Imagine_Fest"><i class="large twitter square icon"></i></a>
+                <a class="item" href="https://www.youtube.com/watch?v=NNKLrGTl4pU"><i class="large youtube square icon"></i></a>
             </div>
         </div>
     </div>
