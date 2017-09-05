@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f37941d-f9de-4031-896d-ce669f69681d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/includes/_lineupsummary.ejs" afterPath="$PROJECT_DIR$/public/includes/_lineupsummary.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/_layout.ejs" afterPath="$PROJECT_DIR$/public/strands/events/_layout.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/_spotlight.ejs" afterPath="$PROJECT_DIR$/public/strands/events/_spotlight.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/test.ejs" afterPath="$PROJECT_DIR$/public/strands/events/test.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.ejs" afterPath="$PROJECT_DIR$/public/index.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="43" column="15" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="43" selection-end-column="15" />
+            <state relative-caret-position="621">
+              <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -49,11 +46,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_event-spotlight.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_event-spotlight.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/strands/events/_event-spotlight.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="646">
               <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31535">
+              <caret line="1855" column="10" lean-forward="false" selection-start-line="1855" selection-start-column="9" selection-end-line="1855" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -91,6 +108,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>spotli</find>
+      <find>modules</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,12 +157,12 @@
         <option value="$PROJECT_DIR$/public/includes/_support.ejs" />
         <option value="$PROJECT_DIR$/public/includes/_spotlight-main.ejs" />
         <option value="$PROJECT_DIR$/public/strands/team.ejs" />
-        <option value="$PROJECT_DIR$/public/index.ejs" />
         <option value="$PROJECT_DIR$/public/includes/_lineupsummary.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/_spotlight.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/_layout.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/test.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/_event-spotlight.ejs" />
+        <option value="$PROJECT_DIR$/public/index.ejs" />
       </list>
     </option>
   </component>
@@ -341,12 +359,12 @@
       <workItem from="1501524357344" duration="4315000" />
       <workItem from="1501578479435" duration="111000" />
       <workItem from="1502790695560" duration="694000" />
-      <workItem from="1504605255411" duration="4161000" />
+      <workItem from="1504605255411" duration="4513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54846000" />
+    <option name="totallyTimeSpent" value="55198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -463,20 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -655,14 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="43" column="15" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="43" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/includes/_lineupsummary.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
@@ -699,6 +695,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31535">
+          <caret line="1855" column="10" lean-forward="false" selection-start-line="1855" selection-start-column="9" selection-end-line="1855" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
           <folding />
         </state>
       </provider>
