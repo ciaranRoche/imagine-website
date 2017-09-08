@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f37941d-f9de-4031-896d-ce669f69681d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/back-head.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/date-landing.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/events/art/art-event-tester1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/events/art/art-event-tester2.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/events/art/art-tester-3.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/events/art/art1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/events/kila.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/events/music/music-s1.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/events/music/music-s2.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/events/music/music-s3.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/events/theatre/per-s1.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/events/theatre/per-s2.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/events/theatre/per-s3.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/icon-tickets.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/imagine-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/imagine.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/imagine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/parallax1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/parallax2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/parallax3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/assets/images/test.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/vaevent.ejs" afterPath="$PROJECT_DIR$/public/strands/vaevent.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/contact.html" afterPath="$PROJECT_DIR$/www/strands/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/dateevent.html" afterPath="$PROJECT_DIR$/www/strands/dateevent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/events/test.html" afterPath="$PROJECT_DIR$/www/strands/events/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/mevent.html" afterPath="$PROJECT_DIR$/www/strands/mevent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/socialmedia.html" afterPath="$PROJECT_DIR$/www/strands/socialmedia.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/sponser.html" afterPath="$PROJECT_DIR$/www/strands/sponser.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/team.html" afterPath="$PROJECT_DIR$/www/strands/team.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/tevent.html" afterPath="$PROJECT_DIR$/www/strands/tevent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/timetable.html" afterPath="$PROJECT_DIR$/www/strands/timetable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/tradevent.html" afterPath="$PROJECT_DIR$/www/strands/tradevent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/vaevent.html" afterPath="$PROJECT_DIR$/www/strands/vaevent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/volunteer.html" afterPath="$PROJECT_DIR$/www/strands/volunteer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/strands/writerevent.html" afterPath="$PROJECT_DIR$/www/strands/writerevent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/dateevent.ejs" afterPath="$PROJECT_DIR$/public/strands/dateevent.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,17 +19,105 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vaevent.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/strands/vaevent.ejs">
+      <file leaf-file-name="dateevent.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/strands/dateevent.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+            <state relative-caret-position="627">
+              <caret line="44" column="14" lean-forward="false" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#3;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codordojo.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/strands/events/children/codordojo.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vrimmer.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/strands/events/children/vrimmer.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="musos.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/strands/events/children/musos.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#816#821#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="puppet.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/strands/events/children/puppet.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jackula.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/strands/events/children/jackula.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graffiti.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/strands/events/children/graffiti.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#867#872#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="history.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/strands/events/children/history.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="97" lean-forward="false" selection-start-line="22" selection-start-column="97" selection-end-line="22" selection-end-column="97" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,14 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/strands/events/music/joey-wright.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/events/music/city-of-dublin-orchestra.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/events/music/dime-a-dozen.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/events/music/dr-mindflip.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/events/music/propeller-palms.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/events/music/martin-stephenson.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/timetable.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/events/music/sean-walsh.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/music/the-bonk.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/music/yorkston-thorne-khan.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/music/dilly-and-banial.ejs" />
@@ -136,13 +180,21 @@
         <option value="$PROJECT_DIR$/public/strands/events/writers/tramp-press.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/writers/fatti.ejs" />
         <option value="$PROJECT_DIR$/public/strands/writerevent.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/events/music/bill-ryder-jones.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/visual-art/aideen-barry.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/visual-art/elaine-hoey.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/visual-art/bernadette.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/visual-art/sems.ejs" />
         <option value="$PROJECT_DIR$/public/strands/vaevent.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/visual-art/submerged.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/music/bill-ryder-jones.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/children/history.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/children/graffiti.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/children/jackula.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/children/musos.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/children/puppet.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/children/vrimmer.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/children/codordojo.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/dateevent.ejs" />
       </list>
     </option>
   </component>
@@ -212,6 +264,35 @@
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="events" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="imagine-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imagine-website" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="strands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imagine-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imagine-website" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="strands" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imagine-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imagine-website" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="strands" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="children" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imagine-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imagine-website" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="strands" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="music" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -229,11 +310,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/strands/events/children" />
       <recent name="$PROJECT_DIR$/public/strands/events/visual-art" />
       <recent name="$PROJECT_DIR$/public/strands/events/writers" />
       <recent name="$PROJECT_DIR$/public/strands/events/trad" />
       <recent name="$PROJECT_DIR$/public/strands/events/music" />
-      <recent name="$PROJECT_DIR$/public/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/strands" />
@@ -346,12 +427,12 @@
       <workItem from="1502790695560" duration="694000" />
       <workItem from="1504605255411" duration="6162000" />
       <workItem from="1504860935396" duration="7961000" />
-      <workItem from="1504870078300" duration="21247000" />
+      <workItem from="1504870078300" duration="22964000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86055000" />
+    <option name="totallyTimeSpent" value="87772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -404,84 +485,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/strands/events/music/yorkston-thorne-khan.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/events/music/dilly-and-banial.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding>
-            <element signature="e#116#121#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/events/music/oisin-leech.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/sponser.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/_layout.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/includes/_sponsors.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="62" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/events/_sponsors.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="62" column="67" lean-forward="false" selection-start-line="62" selection-start-column="67" selection-end-line="62" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/events/music/hedge-schools.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="100" lean-forward="false" selection-start-line="5" selection-start-column="100" selection-end-line="5" selection-end-column="121" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/events/trad/_layout.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/strands/events/music/dr-mindflip.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -862,14 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/events/music/bill-ryder-jones.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/strands/events/visual-art/elaine-hoey.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="607">
@@ -931,6 +926,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/children/_layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/music/bill-ryder-jones.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/strands/vaevent.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -941,6 +952,94 @@
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/children/history.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="97" lean-forward="false" selection-start-line="22" selection-start-column="97" selection-end-line="22" selection-end-column="97" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/children/graffiti.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#867#872#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/children/jackula.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/children/puppet.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/children/musos.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#816#821#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/children/vrimmer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/children/codordojo.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/dateevent.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="44" column="14" lean-forward="false" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#3;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
