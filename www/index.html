@@ -37,6 +37,14 @@
 	        ;
         })
     </script>
+    <script>
+        $(document).ready(function(){
+	        $('.special.cards .image').dimmer({
+		        on: 'hover'
+	        });
+        })
+
+    </script>
 </head>
 <body>
 <div class="pusher">
@@ -113,43 +121,160 @@
 
 <div class="ui centered container">
     <br>
-    <h2 class="ui dividing header">
+    <h1 class="ui header">
        What to expect
-    </h2>
-    <div class="ui stackable equal width grid">
-        <div class="column">
-            <h3 class="ui dividing header">
-                Visual Art
-            </h3>
-            <a href="../strands/vaevent.html"><img class="ui fluid image" href="#" src="../assets/images/events/art/va.jpg" style="padding: 2%"></a>
-        </div>
-        <div class="column">
-            <h3 class="ui dividing header">
-                Live Music
-            </h3>
-            <a href="../strands/mevent.html"><img class="ui fluid image" href="#" src="../assets/images/events/music/music1.jpg" style="padding: 2%"></a>
-        </div>
-        <div class="column">
-            <h3 class="ui dividing header">
-                Live Performance
-            </h3>
-            <a href="../strands/tevent.html"><img class="ui fluid image" href="#" src="../assets/images/events/theatre/performance1.jpg" style="padding: 2%"></a>
-        </div>
-        <div class="equal width row">
+    </h1>
+    <div class="ui special cards">
+        <div class="ui stackable three column grid">
             <div class="column">
-                <h3 class="ui dividing header">
-                    The John Dwyer Trad Fest
-                </h3>
-                <a href="../strands/tradevent.html"><img class="ui fluid image" href="#" src="../assets/images/events/trad/trad.jpg" style="padding: 2%"></a>
+                <div class="ui fluid card">
+                    <div class="blurring dimmable image">
+                        <div class="ui dimmer">
+                            <div class="content">
+                                <div class="center">
+                                    <a class="ui inverted button" href="../strands/vaevent.html">Full Line-Up</a>
+                                </div>
+                            </div>
+                        </div>
+                            <img src="../assets/images/events/art/va.jpg">
+                    </div>
+                    <div class="content">
+                        <a href="../strands/vaevent.html" class="header">Visual Art</a>
+                        <div class="meta">
+                            <span class="date"></span>
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <div class="column">
-                <h3 class="ui dividing header">
-                    The Writers Weekend
-                </h3>
-                <a href="../strands/writerevent.html"><img class="ui fluid image" href="#" src="../assets/images/events/writers/writers1.jpg" style="padding: 2%"></a>
+                <div class="ui fluid card">
+                    <div class="blurring dimmable image">
+                        <div class="ui dimmer">
+                            <div class="content">
+                                <div class="center">
+                                    <a href="../strands/mevent.html" class="ui inverted button">Full Line-Up</a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="../assets/images/events/music/music1.jpg">
+                    </div>
+                    <div class="content">
+                        <a href="../strands/mevent.html" class="header">Live Music</a>
+                        <div class="meta">
+                            <span class="date"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="ui fluid card">
+                    <div class="blurring dimmable image">
+                        <div class="ui dimmer">
+                            <div class="content">
+                                <div class="center">
+                                    <a href="../strands/tevent.html" class="ui inverted button">Full Line-Up</a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="../assets/images/events/theatre/performance1.jpg">
+                    </div>
+                    <div class="content">
+                        <a href="../strands/tevent.html" class="header">Live Performance</a>
+                        <div class="meta">
+                            <span class="date"></span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+
+        <div class="ui stackable two column grid">
+            <div class="ui column">
+                <div class="ui fluid card">
+                    <div class="blurring dimmable image">
+                        <div class="ui dimmer">
+                            <div class="content">
+                                <div class="center">
+                                    <a href="../strands/tradevent.html" class="ui inverted button">Full Line-Up</a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="../assets/images/events/trad/trad.jpg">
+                    </div>
+                    <div class="content">
+                        <a href="../strands/tradevent.html" class="header">The John Dwyer Trad Fest</a>
+                        <div class="meta">
+                            <span class="date"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui column">
+                <div class="ui fluid card">
+                    <div class="blurring dimmable image">
+                        <div class="ui dimmer">
+                            <div class="content">
+                                <div class="center">
+                                    <a href="../strands/writerevent.html" class="ui inverted button">Full Line-Up</a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="../assets/images/events/writers/writers1.jpg">
+                    </div>
+                    <div class="content">
+                        <a href="../strands/writerevent.html" class="header">The Writers Weekend</a>
+                        <div class="meta">
+                            <span class="date"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+</div>
+
+
+
+
+    <!--<div class="ui stackable equal width grid">-->
+        <!--<div class="column">-->
+            <!--<h3 class="ui dividing header">-->
+                <!--Visual Art-->
+            <!--</h3>-->
+            <!--<a href="../strands/vaevent.html"><img class="ui fluid image" href="#" src="../assets/images/events/art/va.jpg" style="padding: 2%"></a>-->
+        <!--</div>-->
+        <!--<div class="column">-->
+            <!--<h3 class="ui dividing header">-->
+                <!--Live Music-->
+            <!--</h3>-->
+            <!--<a href="../strands/mevent.html"><img class="ui fluid image" href="#" src="../assets/images/events/music/music1.jpg" style="padding: 2%"></a>-->
+        <!--</div>-->
+        <!--<div class="column">-->
+            <!--<h3 class="ui dividing header">-->
+                <!--Live Performance-->
+            <!--</h3>-->
+            <!--<a href="../strands/tevent.html"><img class="ui fluid image" href="#" src="../assets/images/events/theatre/performance1.jpg" style="padding: 2%"></a>-->
+        <!--</div>-->
+        <!--<div class="equal width row">-->
+            <!--<div class="column">-->
+                <!--<h3 class="ui dividing header">-->
+                    <!--The John Dwyer Trad Fest-->
+                <!--</h3>-->
+                <!--<a href="../strands/tradevent.html"><img class="ui fluid image" href="#" src="../assets/images/events/trad/trad.jpg" style="padding: 2%"></a>-->
+            <!--</div>-->
+            <!--<div class="column">-->
+                <!--<h3 class="ui dividing header">-->
+                    <!--The Writers Weekend-->
+                <!--</h3>-->
+                <!--<a href="../strands/writerevent.html"><img class="ui fluid image" href="#" src="../assets/images/events/writers/writers1.jpg" style="padding: 2%"></a>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
     <br>
     <div class="ui divider"></div>
     <br>
@@ -168,23 +293,70 @@
 
 <div class="ui container">
     <br>
-    <h2 class="ui dividing header">
+    <h2 class="ui header">
         Spotlight
     </h2>
-    <div class="ui stackable equal width grid">
-        <div class="ui column">
-            <h3 class="ui dividing header">
-                Title
-            </h3>
-            <a href="test.html"><img class="ui fluid image" src="../../assets/images/events/art/art-event-tester2.jpeg"></a>
-        </div>
-        <div class="ui column">
-            <h3 class="ui dividing header">
-                Title
-            </h3>
-            <a href="test.html"><img class="ui fluid image" src="../../assets/images/events/music/music-s2.jpeg"></a>
+    <div class="ui special cards">
+
+        <div class="ui stackable two column grid">
+            <div class="ui column">
+                <div class="ui fluid card">
+                    <div class="blurring dimmable image">
+                        <div class="ui dimmer">
+                            <div class="content">
+                                <div class="center">
+                                    <a class="ui inverted button" href="../../strands/events/test.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="../../assets/images/events/spot2.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="ui column">
+                <div class="ui fluid card">
+                    <div class="blurring dimmable image">
+                        <div class="ui dimmer">
+                            <div class="content">
+                                <div class="center">
+                                    <a class="ui inverted button" href="../../strands/events/test.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="../../assets/images/events/spot1.jpg">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
+
+
+    <!--<div class="ui stackable equal width grid">-->
+        <!--<div class="ui column">-->
+            <!--<h3 class="ui dividing header">-->
+                <!--Title-->
+            <!--</h3>-->
+            <!--<div class="blurring dimmable image">-->
+                <!--<div class="ui dimmer">-->
+                    <!--<div class="content">-->
+                        <!--<div class="center">-->
+                            <!--<a class="ui inverted button" href="../strands/vaevent.html">Full Line-Up</a>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<img src="../assets/images/events/art/va.jpg">-->
+            <!--</div>-->
+            <!--&lt;!&ndash;<a href="test.html"><img class="ui fluid image" src="../../assets/images/events/art/art-event-tester2.jpeg"></a>&ndash;&gt;-->
+        <!--</div>-->
+        <!--<div class="ui column">-->
+            <!--<h3 class="ui dividing header">-->
+                <!--Title-->
+            <!--</h3>-->
+            <!--<a href="test.html"><img class="ui fluid image" src="../../assets/images/events/music/music-s2.jpeg"></a>-->
+        <!--</div>-->
+    <!--</div>-->
 </div>
 
 <br>
@@ -387,7 +559,18 @@
                         <img class="ui centered tiny image" src="../assets/images/sponsors/festpart/mediapar3.jpg">
                     </div>
                 </div>
+                <div class="column">
+                    <br>
+                    <div class="ui vertical center aligned segment">
+                        <img class="ui centered tiny image" src="../assets/images/sponsors/festpart/medieval.png">
+                    </div>
+                </div>
                 <div class="ui stackable centered equal width row">
+                    <div class="column">
+                        <div class="ui vertical center aligned segment">
+                            <img class="ui centered small image" src="../assets/images/sponsors/festpart/apple.png">
+                        </div>
+                    </div>
                   <div class="column">
                     <div class="ui vertical center aligned segment">
                       <img class="ui centered small image" src="../assets/images/sponsors/festpart/mediapart4.jpg">
@@ -408,10 +591,46 @@
                       <img class="ui centered tiny image" src="../assets/images/sponsors/festpart/mediapart6.png">
                     </div>
                   </div>
+                    <div class="column">
+                        <div class="ui vertical center aligned segment">
+                            <img class="ui centered tiny image" src="../assets/images/sponsors/festpart/labyrinth.jpeg">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
+        <div class="ui divider"></div>
+        <div class="ui equal width row">
+            <div class="ui vertical center aligned segment">
+               Our Media Partners
+            </div>
+        </div>
+        <div class="ui stackable centered equal width grid">
+            <div class="column">
+                <div class="ui vertical center aligned segment">
+                    <br>
+                    <img class="ui centered small image" src="../assets/images/sponsors/media/munster.png">
+                </div>
+            </div>
+            <div class="column">
+                <br/>
+                <div class="ui vertical center aligned segment">
+                    <img class="ui centered tiny image" src="../assets/images/sponsors/media/waterford.png">
+                </div>
+            </div>
+            <div class="column">
+                <br>
+                <div class="ui vertical center aligned segment">
+                    <img class="ui centered tiny image" src="../assets/images/sponsors/media/wlrfm.png">
+                </div>
+            </div>
+            <div class="column">
+                <br>
+                <div class="ui vertical center aligned segment">
+                    <img class="ui centered tiny image" src="../assets/images/sponsors/media/WNS.jpg">
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 

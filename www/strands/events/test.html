@@ -18,6 +18,13 @@
         $('.ui.sidebar').sidebar('attach events', '.toc.item');
       });
     </script>
+    <script>
+        $(document).ready(function(){
+	        $('.special.cards .image').dimmer({
+		        on: 'hover'
+	        });
+        })
+    </script>
     <title> Imagine Festival </title>
 </head>
 <body>
@@ -35,37 +42,37 @@
 
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu left">
-    <a class="ui item" href="../../index.html">
+    <a class="ui item" href="../../../index.html">
         Imagine Arts
     </a>
-    <a class="ui item" href="../../strands/timetable.html">Timetable</a>
+    <a class="ui item" href="../../../strands/timetable.html">Timetable</a>
     <div class="item">
         <div class="ui small inverted header">What's On</div>
     </div>
     <div class="menu">
-    <a class="ui item" href="../../strands/vaevent.html">Visual Arts</a>
-    <a class="ui item" href="../../strands/mevent.html">Music</a>
-    <a class="ui item" href="../../strands/tevent.html">Theatre</a>
-    <a class="ui item" href="../../strands/tradevent.html">John Dwyer Trad Fest</a>
-    <a class="ui item" href="../../strands/writerevent.html">Writers Weekend</a>
-    <a class="ui item" href="../../strands/dateevent.html">Children's Events</a>
+    <a class="ui item" href="../../../strands/vaevent.html">Visual Arts</a>
+    <a class="ui item" href="../../../strands/mevent.html">Music</a>
+    <a class="ui item" href="../../../strands/tevent.html">Theatre</a>
+    <a class="ui item" href="../../../strands/tradevent.html">John Dwyer Trad Fest</a>
+    <a class="ui item" href="../../../strands/writerevent.html">Writers Weekend</a>
+    <a class="ui item" href="../../../strands/dateevent.html">Children's Events</a>
     </div>
     <div class="item">
         <div class="ui small inverted header">The Festival</div>
     </div>
     <div class="menu">
-        <a class="ui item" href="../../index.html/#about">About the Festival</a>
-        <a class="ui item" href="../../strands/team.html">Meet the Team</a>
-        <a class="ui item" href="../../index.html/#map">Points of Interest</a>
+        <a class="ui item" href="../../../index.html/#about">About the Festival</a>
+        <a class="ui item" href="../../../strands/team.html">Meet the Team</a>
+        <a class="ui item" href="../../../index.html/#map">Points of Interest</a>
     </div>
     <div class="item">
         <div class="ui small inverted header">Get Involved</div>
     </div>
     <div class="menu">
-        <a class="ui item" href="../../strands/volunteer.html">Volunteer</a>
-        <a class="ui item" href="../../strands/sponser.html">Sponser</a>
-        <a class="ui item" href="../../strands/socialmedia.html">Social Media</a>
-        <a class="ui item" href="../../strands/contact.html">Contact Us</a>
+        <a class="ui item" href="../../../strands/volunteer.html">Volunteer</a>
+        <a class="ui item" href="../../../strands/sponser.html">Sponser</a>
+        <a class="ui item" href="../../../strands/socialmedia.html">Social Media</a>
+        <a class="ui item" href="../../../strands/contact.html">Contact Us</a>
     </div>
 </div>
 
@@ -83,33 +90,49 @@
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Conferam avum tuum Drusum cum C. Sin dicit obscurari quaedam nec apparere, quia valde parva sint, nos quoque concedimus; An eum discere ea mavis, quae cum plane perdidiceriti nihil sciat? Duo Reges: constructio interrete. Utinam quidem dicerent alium alio beatiorem! Iam ruinas videres. Moriatur, inquit. Nos paucis ad haec additis finem faciamus aliquando;
             </p>
-
             <a href="https://www.google.ie"><i class="huge black ticket icon"></i></a><a href="https://www.google.ie"><i class="huge black facebook square icon"></i></a>
-
-
-
         </div>
     </div>
 </div>
 <div class="ui container">
     <br>
-    <h2 class="ui dividing header">
+    <h2 class="ui header">
         Spotlight
     </h2>
-    <div class="ui stackable equal width grid">
-        <div class="ui column">
-            <h3 class="ui dividing header">
-                Title
-            </h3>
-            <a href="test.html"><img class="ui fluid image" src="../../assets/images/events/art/art-event-tester2.jpeg"></a>
-        </div>
-        <div class="ui column">
-            <h3 class="ui dividing header">
-                Title
-            </h3>
-            <a href="test.html"><img class="ui fluid image" src="../../assets/images/events/music/music-s2.jpeg"></a>
+    <div class="ui special cards">
+        <div class="ui stackable two column grid">
+            <div class="ui column">
+                <div class="ui fluid card">
+                    <div class="blurring dimmable image">
+                        <div class="ui dimmer">
+                            <div class="content">
+                                <div class="center">
+                                    <a class="ui inverted button" href="../test.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="../../../assets/images/events/spot2.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="ui column">
+                <div class="ui fluid card">
+                    <div class="blurring dimmable image">
+                        <div class="ui dimmer">
+                            <div class="content">
+                                <div class="center">
+                                    <a class="ui inverted button" href="../test.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="../../../assets/images/events/spot1.jpg">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <br>
 </div>
 
 <section>
@@ -124,18 +147,18 @@
             <div class="column">
                 <div class="ui vertical center aligned segment">
                     <br>
-                    <img class="ui centered small image" src="../../assets/images/sponsors/spon-1.jpeg">
+                    <img class="ui centered small image" src="../../../assets/images/sponsors/spon-1.jpeg">
                 </div>
             </div>
             <div class="column">
                 <div class="ui vertical center aligned segment">
-                    <img class="ui centered small image" src="../../assets/images/sponsors/spon-3.png">
+                    <img class="ui centered small image" src="../../../assets/images/sponsors/spon-3.png">
                 </div>
             </div>
             <div class="column">
                 <br>
                 <div class="ui vertical center aligned segment">
-                    <img class="ui centered small image" src="../../assets/images/sponsors/spon-2.jpg">
+                    <img class="ui centered small image" src="../../../assets/images/sponsors/spon-2.jpg">
                 </div>
             </div>
         </div>
@@ -150,43 +173,91 @@
             <div class="column">
                 <div class="ui vertical center aligned segment">
                     <br>
-                    <img class="ui centered small image" src="../../assets/images/sponsors/festpart/mediaPart1.jpg">
+                    <img class="ui centered small image" src="../../../assets/images/sponsors/festpart/mediaPart1.jpg">
                 </div>
             </div>
             <div class="column">
                 <div class="ui vertical center aligned segment">
                   <br>
-                    <img class="ui centered small image" src="../../assets/images/sponsors/festpart/mediapart2.png">
+                    <img class="ui centered small image" src="../../../assets/images/sponsors/festpart/mediapart2.png">
                 </div>
             </div>
             <div class="column">
                 <br>
                 <div class="ui vertical center aligned segment">
-                    <img class="ui centered small image" src="../../assets/images/sponsors/festpart/mediapart3.jpg">
+                    <img class="ui centered small image" src="../../../assets/images/sponsors/festpart/mediapart3.jpg">
                 </div>
             </div>
             <div class="column">
                 <br>
                 <div class="ui vertical center aligned segment">
-                    <img class="ui centered tiny image" src="../../assets/images/sponsors/festpart/mediapar3.jpg">
+                    <img class="ui centered tiny image" src="../../../assets/images/sponsors/festpart/mediapar3.jpg">
+                </div>
+            </div>
+            <div class="column">
+                <br>
+                <div class="ui vertical center aligned segment">
+                    <img class="ui centered tiny image" src="../../../assets/images/sponsors/festpart/medieval.png">
                 </div>
             </div>
             <div class="ui stackable centered equal width row">
+                <div class="column">
+                    <div class="ui vertical center aligned segment">
+                        <img class="ui centered small image" src="../../../assets/images/sponsors/festpart/apple.png">
+                    </div>
+                </div>
               <div class="column">
                 <div class="ui vertical center aligned segment">
-                  <img class="ui centered small image" src="../../assets/images/sponsors/festpart/mediapart4.jpg">
+                  <img class="ui centered small image" src="../../../assets/images/sponsors/festpart/mediapart4.jpg">
                 </div>
               </div>
               <div class="column">
                 <div class="ui vertical center aligned segment">
-                  <img class="ui centered small image" src="../../assets/images/sponsors/festpart/mediapart5.gif">
+                  <img class="ui centered small image" src="../../../assets/images/sponsors/festpart/mediapart5.gif">
                 </div>
               </div>
               <div class="column">
                 <div class="ui vertical center aligned segment">
-                  <img class="ui centered tiny image" src="../../assets/images/sponsors/festpart/mediapart6.png">
+                  <img class="ui centered tiny image" src="../../../assets/images/sponsors/festpart/mediapart6.png">
                 </div>
               </div>
+                <div class="column">
+                    <div class="ui vertical center aligned segment">
+                        <img class="ui centered tiny image" src="../../../assets/images/sponsors/festpart/labyrinth.jpeg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ui divider"></div>
+        <div class="ui equal width row">
+            <div class="ui vertical center aligned segment">
+                Our Media Partners
+            </div>
+        </div>
+        <div class="ui stackable centered equal width grid">
+            <div class="column">
+                <div class="ui vertical center aligned segment">
+                    <br>
+                    <img class="ui centered small image" src="../../../assets/images/sponsors/media/munster.png">
+                </div>
+            </div>
+            <div class="column">
+                <br/>
+                <div class="ui vertical center aligned segment">
+                    <img class="ui centered tiny image" src="../../../assets/images/sponsors/media/waterford.png">
+                </div>
+            </div>
+            <div class="column">
+                <br>
+                <div class="ui vertical center aligned segment">
+                    <img class="ui centered tiny image" src="../../../assets/images/sponsors/media/wlrfm.png">
+                </div>
+            </div>
+            <div class="column">
+                <br>
+                <div class="ui vertical center aligned segment">
+                    <img class="ui centered tiny image" src="../../../assets/images/sponsors/media/WNS.jpg">
+                </div>
             </div>
         </div>
     </div>
