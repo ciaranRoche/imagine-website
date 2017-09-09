@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f37941d-f9de-4031-896d-ce669f69681d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/includes/_imagine.ejs" afterPath="$PROJECT_DIR$/public/includes/_imagine.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/includes/_lineupsummary.ejs" afterPath="$PROJECT_DIR$/public/includes/_lineupsummary.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/timetable.ejs" afterPath="$PROJECT_DIR$/public/strands/timetable.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,11 +30,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_imagine.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_imagine.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/includes/_imagine.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="120" lean-forward="false" selection-start-line="8" selection-start-column="120" selection-end-line="8" selection-end-column="120" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="timetable.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/strands/timetable.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-434">
+              <caret line="846" column="36" lean-forward="false" selection-start-line="846" selection-start-column="36" selection-end-line="846" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -84,7 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/strands/events/writers/sam.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/writers/sinead-crowley.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/writers/tramp-press.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/writers/fatti.ejs" />
@@ -135,6 +144,7 @@
         <option value="$PROJECT_DIR$/public/strands/events/history/booze.ejs" />
         <option value="$PROJECT_DIR$/public/includes/_lineupsummary.ejs" />
         <option value="$PROJECT_DIR$/public/includes/_imagine.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/timetable.ejs" />
       </list>
     </option>
   </component>
@@ -187,7 +197,7 @@
               <item name="imagine-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="imagine-website" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
+              <item name="strands" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -323,12 +333,12 @@
       <workItem from="1502790695560" duration="694000" />
       <workItem from="1504605255411" duration="6162000" />
       <workItem from="1504860935396" duration="7961000" />
-      <workItem from="1504870078300" duration="32907000" />
+      <workItem from="1504870078300" duration="33941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97715000" />
+    <option name="totallyTimeSpent" value="98749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -381,14 +391,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/strands/events/children/_layout.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/strands/events/children/graffiti.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -833,6 +835,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="120" lean-forward="false" selection-start-line="8" selection-start-column="120" selection-end-line="8" selection-end-column="120" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/timetable.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-434">
+          <caret line="846" column="36" lean-forward="false" selection-start-line="846" selection-start-column="36" selection-end-line="846" selection-end-column="36" />
           <folding />
         </state>
       </provider>
