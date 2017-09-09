@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f37941d-f9de-4031-896d-ce669f69681d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/dateevent.ejs" afterPath="$PROJECT_DIR$/public/strands/dateevent.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/film/hidden.ejs" afterPath="$PROJECT_DIR$/public/strands/events/film/hidden.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/visual-art/pinhole.ejs" afterPath="$PROJECT_DIR$/public/strands/events/visual-art/pinhole.ejs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/images/team/jenna.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/team.ejs" afterPath="$PROJECT_DIR$/public/strands/team.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/tevent.ejs" afterPath="$PROJECT_DIR$/public/strands/tevent.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,76 +21,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vaevent.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/strands/vaevent.ejs">
+      <file leaf-file-name="tevent.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/strands/tevent.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="97" column="131" lean-forward="false" selection-start-line="97" selection-start-column="131" selection-end-line="97" selection-end-column="131" />
+            <state relative-caret-position="474">
+              <caret line="62" column="52" lean-forward="false" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
               <folding>
-                <element signature="e#4793#4798#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pinhole.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/strands/events/visual-art/pinhole.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rainbow.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/strands/events/children/rainbow.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="6" />
-              <folding>
-                <element signature="e#518#523#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dateevent.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/strands/dateevent.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="66" column="150" lean-forward="false" selection-start-line="66" selection-start-column="150" selection-end-line="66" selection-end-column="150" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#3;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#4;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#4;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#4;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="e#3810#3815#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#5;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#5;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="waterfordboy.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/strands/events/children/waterfordboy.ejs">
+      <file leaf-file-name="team.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/strands/team.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="75" lean-forward="false" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
+            <state relative-caret-position="524">
+              <caret line="45" column="74" lean-forward="false" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hidden.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/strands/events/film/hidden.ejs">
+      <file leaf-file-name="callback.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/strands/events/performance/callback.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="86" lean-forward="false" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
+            <state relative-caret-position="272">
+              <caret line="16" column="81" lean-forward="false" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thebes.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/strands/events/performance/thebes.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="96" lean-forward="false" selection-start-line="12" selection-start-column="96" selection-end-line="12" selection-end-column="96" />
               <folding>
-                <element signature="e#120#125#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,47 +69,63 @@
       <file leaf-file-name="film.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/strands/film.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
+            <state relative-caret-position="632">
               <caret line="45" column="14" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="45" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="boogie.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/strands/events/children/boogie.ejs">
+      <file leaf-file-name="savage.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/strands/events/performance/savage.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="6" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="6" />
               <folding>
-                <element signature="e#498#503#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="creative.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/strands/events/visual-art/creative.ejs">
+      <file leaf-file-name="slsd.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/strands/events/performance/slsd.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="6" />
+            <state relative-caret-position="255">
+              <caret line="15" column="85" lean-forward="false" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
               <folding>
-                <element signature="e#583#588#0#HTML" expanded="true" />
-                <element signature="e#607#612#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uchronia.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/strands/events/visual-art/uchronia.ejs">
+      <file leaf-file-name="van.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/strands/events/performance/van.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="6" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="6" />
               <folding>
-                <element signature="e#847#852#0#HTML" expanded="true" />
-                <element signature="e#860#865#0#HTML" expanded="true" />
-                <element signature="e#1095#1100#0#HTML" expanded="true" />
+                <element signature="e#1154#1159#0#HTML" expanded="true" />
+                <element signature="e#1624#1629#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alice.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/strands/events/performance/alice.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <folding>
+                <element signature="e#580#585#0#HTML" expanded="true" />
+                <element signature="e#608#613#0#HTML" expanded="true" />
+                <element signature="e#1082#1088#0#HTML" expanded="true" />
+                <element signature="e#1178#1184#0#HTML" expanded="true" />
+                <element signature="e#1296#1301#0#HTML" expanded="true" />
+                <element signature="e#1390#1395#0#HTML" expanded="true" />
+                <element signature="e#1442#1447#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,18 +152,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/strands/events/children/graffiti.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/events/children/jackula.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/events/children/musos.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/events/children/puppet.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/events/children/vrimmer.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/events/children/codordojo.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/events/performance/reginald.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/performance/encounters.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/performance/shadow.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/performance/youthd.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/performance/modpoets.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/tevent.ejs" />
         <option value="$PROJECT_DIR$/public/includes/_spotlight-main.ejs" />
         <option value="$PROJECT_DIR$/public/index.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/battle-of-the-blaas.ejs" />
@@ -217,6 +195,14 @@
         <option value="$PROJECT_DIR$/public/strands/events/film/hidden.ejs" />
         <option value="$PROJECT_DIR$/public/strands/dateevent.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/children/waterfordboy.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/performance/van.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/performance/alice.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/performance/savage.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/performance/slsd.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/performance/callback.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/performance/thebes.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/tevent.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/team.ejs" />
       </list>
     </option>
   </component>
@@ -323,15 +309,7 @@
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="strands" type="462c0819:PsiDirectoryNode" />
               <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="children" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="imagine-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imagine-website" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="strands" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="film" type="462c0819:PsiDirectoryNode" />
+              <item name="performance" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -467,12 +445,12 @@
       <workItem from="1502790695560" duration="694000" />
       <workItem from="1504605255411" duration="6162000" />
       <workItem from="1504860935396" duration="7961000" />
-      <workItem from="1504870078300" duration="37654000" />
+      <workItem from="1504870078300" duration="39629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102462000" />
+    <option name="totallyTimeSpent" value="104437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -525,80 +503,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/strands/events/performance/shadow.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="6" />
-          <folding>
-            <element signature="e#591#596#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/events/performance/modpoets.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/events/_event-spotlight.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/events/_spotlight.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/events/performance/youthd.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/includes/_spotlight-main.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="73" lean-forward="false" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="153" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/events/battle-of-the-blaas.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/events/visual-art/elaine-hoey.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/tevent.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="19" column="14" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/strands/events/visual-art/nigel.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -862,8 +766,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="6" />
           <folding>
-            <element signature="e#647#652#0#HTML" expanded="true" />
-            <element signature="e#903#908#0#HTML" expanded="true" />
+            <element signature="e#647#652#0#HTML" expanded="false" />
+            <element signature="e#903#908#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -873,13 +777,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="6" />
           <folding>
-            <element signature="e#81#86#0#HTML" expanded="true" />
-            <element signature="e#597#602#0#HTML" expanded="true" />
-            <element signature="e#643#648#0#HTML" expanded="true" />
-            <element signature="e#703#708#0#HTML" expanded="true" />
-            <element signature="e#877#882#0#HTML" expanded="true" />
-            <element signature="e#1016#1021#0#HTML" expanded="true" />
-            <element signature="e#1076#1081#0#HTML" expanded="true" />
+            <element signature="e#81#86#0#HTML" expanded="false" />
+            <element signature="e#597#602#0#HTML" expanded="false" />
+            <element signature="e#643#648#0#HTML" expanded="false" />
+            <element signature="e#703#708#0#HTML" expanded="false" />
+            <element signature="e#877#882#0#HTML" expanded="false" />
+            <element signature="e#1016#1021#0#HTML" expanded="false" />
+            <element signature="e#1076#1081#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -889,17 +793,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="6" />
           <folding>
-            <element signature="e#602#607#0#HTML" expanded="true" />
-            <element signature="e#648#653#0#HTML" expanded="true" />
-            <element signature="e#708#713#0#HTML" expanded="true" />
-            <element signature="e#1001#1006#0#HTML" expanded="true" />
-            <element signature="e#1022#1027#0#HTML" expanded="true" />
-            <element signature="e#1027#1032#0#HTML" expanded="true" />
-            <element signature="e#1161#1166#0#HTML" expanded="true" />
-            <element signature="e#1166#1171#0#HTML" expanded="true" />
-            <element signature="e#1206#1211#0#HTML" expanded="true" />
-            <element signature="e#1485#1490#0#HTML" expanded="true" />
-            <element signature="e#1494#1499#0#HTML" expanded="true" />
+            <element signature="e#602#607#0#HTML" expanded="false" />
+            <element signature="e#648#653#0#HTML" expanded="false" />
+            <element signature="e#708#713#0#HTML" expanded="false" />
+            <element signature="e#1001#1006#0#HTML" expanded="false" />
+            <element signature="e#1022#1027#0#HTML" expanded="false" />
+            <element signature="e#1027#1032#0#HTML" expanded="false" />
+            <element signature="e#1161#1166#0#HTML" expanded="false" />
+            <element signature="e#1166#1171#0#HTML" expanded="false" />
+            <element signature="e#1206#1211#0#HTML" expanded="false" />
+            <element signature="e#1485#1490#0#HTML" expanded="false" />
+            <element signature="e#1494#1499#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -909,9 +813,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="6" />
           <folding>
-            <element signature="e#847#852#0#HTML" expanded="true" />
-            <element signature="e#860#865#0#HTML" expanded="true" />
-            <element signature="e#1095#1100#0#HTML" expanded="true" />
+            <element signature="e#847#852#0#HTML" expanded="false" />
+            <element signature="e#860#865#0#HTML" expanded="false" />
+            <element signature="e#1095#1100#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -921,8 +825,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="6" />
           <folding>
-            <element signature="e#583#588#0#HTML" expanded="true" />
-            <element signature="e#607#612#0#HTML" expanded="true" />
+            <element signature="e#583#588#0#HTML" expanded="false" />
+            <element signature="e#607#612#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -940,7 +844,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="6" />
           <folding>
-            <element signature="e#498#503#0#HTML" expanded="true" />
+            <element signature="e#498#503#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -950,16 +854,8 @@
         <state relative-caret-position="510">
           <caret line="97" column="131" lean-forward="false" selection-start-line="97" selection-start-column="131" selection-end-line="97" selection-end-column="131" />
           <folding>
-            <element signature="e#4793#4798#0#HTML" expanded="true" />
+            <element signature="e#4793#4798#0#HTML" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/film.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="45" column="14" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="45" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -968,7 +864,7 @@
         <state relative-caret-position="34">
           <caret line="2" column="86" lean-forward="false" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
           <folding>
-            <element signature="e#120#125#0#HTML" expanded="true" />
+            <element signature="e#120#125#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -978,14 +874,14 @@
         <state relative-caret-position="604">
           <caret line="66" column="150" lean-forward="false" selection-start-line="66" selection-start-column="150" selection-end-line="66" selection-end-column="150" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#3;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#4;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#4;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#4;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="e#3810#3815#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#5;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#5;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#3;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#4;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#4;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#4;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="e#3810#3815#0#HTML" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#5;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#5;n#div#0;n#div#1;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -995,7 +891,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="6" />
           <folding>
-            <element signature="e#518#523#0#HTML" expanded="true" />
+            <element signature="e#518#523#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1004,6 +900,106 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="75" lean-forward="false" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/performance/encounters.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/performance/alice.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="e#580#585#0#HTML" expanded="true" />
+            <element signature="e#608#613#0#HTML" expanded="true" />
+            <element signature="e#1082#1088#0#HTML" expanded="true" />
+            <element signature="e#1178#1184#0#HTML" expanded="true" />
+            <element signature="e#1296#1301#0#HTML" expanded="true" />
+            <element signature="e#1390#1395#0#HTML" expanded="true" />
+            <element signature="e#1442#1447#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/performance/van.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="6" />
+          <folding>
+            <element signature="e#1154#1159#0#HTML" expanded="true" />
+            <element signature="e#1624#1629#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/performance/slsd.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="85" lean-forward="false" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/performance/callback.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="81" lean-forward="false" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/performance/savage.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/film.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="45" column="14" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="45" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/performance/thebes.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="96" lean-forward="false" selection-start-line="12" selection-start-column="96" selection-end-line="12" selection-end-column="96" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/tevent.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="62" column="52" lean-forward="false" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#4;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#4;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/team.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="45" column="74" lean-forward="false" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="74" />
           <folding />
         </state>
       </provider>
