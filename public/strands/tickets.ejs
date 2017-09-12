@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="../assets/css/semantic.css" media="screen">
+    <link rel="stylesheet" href="../style.css">
+    <script src="//code.jquery.com/jquery-2.2.1.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.js"></script>
+    <script src="../assets/css/semantic.js"></script>
+    <script>
+			$(document).ready(function() {
+				// create sidebar and attach to menu open
+				$('.ui.sidebar').sidebar('attach events', '.toc.item');
+			});
+    </script>
+    <script>
+			$(document).ready(function() {
+				$('.tabular.menu .item')
+					.tab();
+			});
+
+    </script>
+</head>
+<body>
+<%- partial("includes/_includes-header.ejs") %>
+<div class="bgimg-5">
+    <div class="ui masthead vertical stripe center aligned segment">
+        <div class="ui text container">
+            <img class="ui fluid image" src='../assets/images/tickets.png' />
+            <a class="ui secondary basic button" href="#home">Read More <i class="down arrow icon"></i></a>
+        </div>
+    </div>
+</div>
+
+<div class="ui container" id="home">
+    <br>
+    <h1 class="ui dividing header">Festival Time Table 2017<div class="sub header">Simply click for tickets</div> </h1>
+
+    <div class="ui active" data-tab="first">
+        <table class="ui black striped table">
+            <thead>
+            <tr><th class="seven wide">Event</th>
+                <th class="five wide">Venue</th>
+                <th class="two wide">Date</th>
+                <th class="two wide">Cost</th>
+            </tr></thead><tbody>
+            <tr>
+                <td><a href="https://uticket.ie/event/martin-stephenson">Martin Stephenson</a></td>
+                <td>St. Patrick's Gateway</td>
+                <td>Friday October 27th, 8pm</td>
+                <td><a href="https://uticket.ie/event/martin-stephenson">€17.50</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://uticket.ie/event/bill-ryder-jones">Bill Ryder Jones</a></td>
+                <td>St. Patrick's Gateway</td>
+                <td>Saturday October 28th</td>
+                <td><a href="https://uticket.ie/event/bill-ryder-jones">€17.50</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://uticket.ie/event/yorkston-thorne-khan">Yorkston Thorne Khan</a></td>
+                <td>St. Patrick's Gateway</td>
+                <td>Sunday October 29th, 8pm</td>
+                <td><a href="https://uticket.ie/event/yorkston-thorne-khan">€17.50</a></td>
+            </tr>
+            </tbody>
+        </table>
+
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<%- partial("includes/_sponsors.ejs") %>
+<%- partial("includes/_footer.ejs") %>
+
+</body>
+</html>

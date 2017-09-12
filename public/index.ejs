@@ -48,9 +48,6 @@
 </head>
 <body>
 <div class="pusher">
-
-<!-- Page Contents -->
-
 <%- partial("./includes/_header.ejs")%>
 <div class="bgimg-1">
   <div class="ui masthead vertical stripe center aligned segment">
@@ -61,11 +58,8 @@
       </div>
   </div>
 </div>
-
 <%- partial("includes/_imagine")%>
-
 <%- partial("includes/_lineupsummary")%>
-
 <div class="bgimg-3">
     <div class="ui vertical stripe center aligned segment">
         <div class='ui text container'>
@@ -75,11 +69,21 @@
         </div>
     </div>
 </div>
-
     <%- partial("includes/_spotlight-main.ejs") %>
-
 <%- partial("includes/_about")%>
-
+    <div class="bgimg-3">
+        <div class="ui vertical stripe center aligned segment">
+            <div class='ui text container'>
+                <h1 class="ui inverted header">Hey, Looking for Tickets?</h1>
+                <p>Full list of all our ticketed events</p>
+                <a class="ui secondary basic button" href="strands/tickets.html">Click for More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<%- partial("includes/_support.ejs")%>
+<%- partial("includes/_highlights.ejs")%>
+<br/>
 <div class="bgimg-3">
     <div class="ui vertical stripe center aligned segment">
         <div class='ui text container'>
@@ -90,22 +94,11 @@
     </div>
 </div>
 </div>
-
-
-<%- partial("includes/_support.ejs")%>
-
-<%- partial("includes/_highlights.ejs")%>
-
 <%- partial("strands/events/_spotlight") %>
 <br/><br/>
-
 <%- partial("includes/_map.ejs")%>
-
 <%- partial("includes/_sponsors.ejs") %>
 <%- partial("includes/_footer.ejs") %>
-
 </div>
-
 </body>
-
 </html>
