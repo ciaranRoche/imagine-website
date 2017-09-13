@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2f37941d-f9de-4031-896d-ce669f69681d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/includes/_lineupsummary.ejs" afterPath="$PROJECT_DIR$/public/includes/_lineupsummary.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/visual-art/aideen-barry.ejs" afterPath="$PROJECT_DIR$/public/strands/events/visual-art/aideen-barry.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/visual-art/nigel.ejs" afterPath="$PROJECT_DIR$/public/strands/events/visual-art/nigel.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/vaevent.ejs" afterPath="$PROJECT_DIR$/public/strands/vaevent.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,105 +22,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="timetable.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/strands/timetable.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="99" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="890" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/strands/contact.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_contact.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/includes/_contact.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tickets.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/strands/tickets.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="62" column="44" lean-forward="false" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/includes/_header.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_includes-header.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/includes/_includes-header.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="98" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/strands/events/_header.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
+            <state relative-caret-position="433">
               <caret line="77" column="40" lean-forward="false" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_imagine.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/includes/_imagine.ejs">
+      <file leaf-file-name="vaevent.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/strands/vaevent.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="120" lean-forward="false" selection-start-line="8" selection-start-column="120" selection-end-line="8" selection-end-column="120" />
-              <folding />
+            <state relative-caret-position="903">
+              <caret line="96" column="10" lean-forward="false" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#4;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#4;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#5;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#5;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#5;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#6;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#6;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#7;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#7;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#7;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_lineupsummary.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/includes/_lineupsummary.ejs">
+      <file leaf-file-name="aideen-barry.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/strands/events/visual-art/aideen-barry.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="121" column="92" lean-forward="false" selection-start-line="121" selection-start-column="92" selection-end-line="121" selection-end-column="92" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="75" lean-forward="false" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,8 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/strands/events/battle-of-the-blaas.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/events/visual-art/nigel.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/visual-art/benhen.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/visual-art/fran.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/visual-art/tarak.ejs" />
@@ -168,7 +111,6 @@
         <option value="$PROJECT_DIR$/public/strands/events/visual-art/debbie.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/visual-art/uchronia.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/visual-art/creative.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/vaevent.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/visual-art/pinhole.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/children/rainbow.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/children/boogie.ejs" />
@@ -195,6 +137,9 @@
         <option value="$PROJECT_DIR$/public/includes/_includes-header.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/_header.ejs" />
         <option value="$PROJECT_DIR$/public/includes/_lineupsummary.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/visual-art/nigel.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/visual-art/aideen-barry.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/vaevent.ejs" />
       </list>
     </option>
   </component>
@@ -261,6 +206,14 @@
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="strands" type="462c0819:PsiDirectoryNode" />
               <item name="events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imagine-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imagine-website" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="strands" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="visual-art" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -399,12 +352,12 @@
       <workItem from="1504870078300" duration="39891000" />
       <workItem from="1505040425688" duration="902000" />
       <workItem from="1505239272923" duration="2883000" />
-      <workItem from="1505324378379" duration="221000" />
+      <workItem from="1505324378379" duration="1044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108705000" />
+    <option name="totallyTimeSpent" value="109528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -457,20 +410,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/strands/events/film/_layout.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/events/film/sanctuary.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/strands/events/film/jaws.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -608,13 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/vaevent.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="97" column="131" lean-forward="false" selection-start-line="97" selection-start-column="131" selection-end-line="97" selection-end-column="131" />
         </state>
       </provider>
     </entry>
@@ -762,7 +694,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/strands/timetable.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
+        <state relative-caret-position="0">
           <caret line="37" column="99" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="890" selection-end-column="0" />
           <folding />
         </state>
@@ -772,14 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
           <caret line="62" column="44" lean-forward="false" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="40" lean-forward="false" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -808,6 +732,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/includes/_lineupsummary.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="121" column="92" lean-forward="false" selection-start-line="121" selection-start-column="92" selection-end-line="121" selection-end-column="92" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/visual-art/nigel.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/visual-art/aideen-barry.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="75" lean-forward="false" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/includes/_imagine.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -816,13 +767,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/includes/_lineupsummary.ejs">
+    <entry file="file://$PROJECT_DIR$/public/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="121" column="92" lean-forward="false" selection-start-line="121" selection-start-column="92" selection-end-line="121" selection-end-column="92" />
+        <state relative-caret-position="433">
+          <caret line="77" column="40" lean-forward="false" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/vaevent.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="96" column="10" lean-forward="false" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#4;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#4;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#5;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#5;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#5;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#6;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#6;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#7;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#7;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#7;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
