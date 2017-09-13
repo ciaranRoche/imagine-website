@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2f37941d-f9de-4031-896d-ce669f69681d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/music/bill-ryder-jones.ejs" afterPath="$PROJECT_DIR$/public/strands/events/music/bill-ryder-jones.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/music/hedge-schools.ejs" afterPath="$PROJECT_DIR$/public/strands/events/music/hedge-schools.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/music/martin-stephenson.ejs" afterPath="$PROJECT_DIR$/public/strands/events/music/martin-stephenson.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/music/oisin-leech.ejs" afterPath="$PROJECT_DIR$/public/strands/events/music/oisin-leech.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/mevent.ejs" afterPath="$PROJECT_DIR$/public/strands/mevent.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/performance/alice.ejs" afterPath="$PROJECT_DIR$/public/strands/events/performance/alice.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/performance/van.ejs" afterPath="$PROJECT_DIR$/public/strands/events/performance/van.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,11 +57,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hedge-schools.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hedge-schools.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/strands/events/music/hedge-schools.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="123" lean-forward="false" selection-start-line="9" selection-start-column="123" selection-end-line="9" selection-end-column="123" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alice.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/strands/events/performance/alice.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="van.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/strands/events/performance/van.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -156,8 +173,6 @@
         <option value="$PROJECT_DIR$/public/strands/events/film/hidden.ejs" />
         <option value="$PROJECT_DIR$/public/strands/dateevent.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/children/waterfordboy.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/events/performance/van.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/events/performance/alice.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/performance/savage.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/performance/slsd.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/performance/callback.ejs" />
@@ -182,6 +197,8 @@
         <option value="$PROJECT_DIR$/public/strands/mevent.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/music/oisin-leech.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/music/hedge-schools.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/performance/alice.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/performance/van.ejs" />
       </list>
     </option>
   </component>
@@ -255,7 +272,7 @@
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="strands" type="462c0819:PsiDirectoryNode" />
               <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="music" type="462c0819:PsiDirectoryNode" />
+              <item name="performance" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -394,12 +411,12 @@
       <workItem from="1504870078300" duration="39891000" />
       <workItem from="1505040425688" duration="902000" />
       <workItem from="1505239272923" duration="2883000" />
-      <workItem from="1505324378379" duration="1811000" />
+      <workItem from="1505324378379" duration="1955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110295000" />
+    <option name="totallyTimeSpent" value="110439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -596,20 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/events/performance/alice.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/events/performance/van.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -860,6 +863,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="123" lean-forward="false" selection-start-line="9" selection-start-column="123" selection-end-line="9" selection-end-column="123" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/performance/alice.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/performance/van.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding />
         </state>
       </provider>
