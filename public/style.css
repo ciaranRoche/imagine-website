@@ -191,3 +191,7 @@ body, html {
 .secondary.pointing.menu .toc.item {
     display: none;
 }
+
+.ui.about p{
+    font-size: 1.15em;
+}
