@@ -26,65 +26,18 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background: #4A2B2A;
-    min-height: 400px;
+    min-height: 500px;
+
 }
 
-/* Second image (Portfolio) */
-.bgimg-2 {
-    background-image: url("assets/images/parallax1.jpg");
-    min-height: 400px;
-}
-
-/* Third image (Contact) */
 .bgimg-3 {
-    background: #4A2B2A;
-    min-height: 400px;
-}
-
-.bgimg-4{
-    background-image: url("assets/images/parallax3.jpg");
+    background: #F9D508;
     min-height: 400px;
 }
 
 .bgimg-5{
-  background: #4A2B2A;
+    background: #F9D508;
   min-height: 400px;
-}
-
-.landing-head{
-    background-image: url("assets/images/back-head.jpeg");
-    min-height: 75%;
-}
-
-.visual-art-head{
-    background-image: url("assets/images/visual-landing.jpeg");
-    min-height: 75%;
-}
-
-.performance-head{
-    background-image: url("assets/images/perfor-landing.jpg");
-    min-height: 75%;
-}
-
-.music-head{
-    background-image: url("assets/images/music-landing.jpeg");
-    min-height: 75%;
-}
-
-.trad-head{
-    background-image: url("assets/images/trad-landing.jpeg");
-    min-height: 75%;
-}
-
-.writer-head{
-    background-image: url("assets/images/writer-landing.jpg");
-    min-height: 75%;
-}
-
-.date-head{
-    background-image: url("assets/images/date-landing.jpg");
-    min-height: 75%;
 }
 
 .team-header{
