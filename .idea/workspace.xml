@@ -4,6 +4,7 @@
     <list default="true" id="2f37941d-f9de-4031-896d-ce669f69681d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/timetable.ejs" afterPath="$PROJECT_DIR$/public/strands/timetable.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/vaevent.ejs" afterPath="$PROJECT_DIR$/public/strands/vaevent.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,61 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.ejs">
+      <file leaf-file-name="billnkeith.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/strands/events/visual-art/billnkeith.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="60" column="135" lean-forward="false" selection-start-line="60" selection-start-column="135" selection-end-line="60" selection-end-column="135" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_imagine.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/includes/_imagine.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="81" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="81" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/strands/events/_header.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_footer.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/strands/events/_footer.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_includes-footer.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/includes/_includes-footer.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_layout.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/strands/_layout.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="119">
+              <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -83,28 +34,32 @@
       <file leaf-file-name="timetable.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/strands/timetable.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="755" column="38" lean-forward="false" selection-start-line="755" selection-start-column="38" selection-end-line="755" selection-end-column="38" />
+            <state relative-caret-position="209">
+              <caret line="770" column="55" lean-forward="false" selection-start-line="770" selection-start-column="55" selection-end-line="770" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_includes-header.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/includes/_includes-header.ejs">
+      <file leaf-file-name="vaevent.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/strands/vaevent.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="38" column="35" lean-forward="false" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="53" />
-              <folding />
+            <state relative-caret-position="203">
+              <caret line="79" column="145" lean-forward="false" selection-start-line="79" selection-start-column="145" selection-end-line="79" selection-end-column="145" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#6;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#6;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#6;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/includes/_header.ejs">
+      <file leaf-file-name="creative.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/strands/events/visual-art/creative.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="47" column="33" lean-forward="false" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="56" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -121,8 +76,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Tara</find>
-      <find>john d</find>
       <find>frank</find>
       <find>prop</find>
       <find>regin</find>
@@ -151,6 +104,8 @@
       <find>sean</find>
       <find>ejs</find>
       <find>fran</find>
+      <find>shine</find>
+      <find>halloween s</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/public/strands/events</dir>
@@ -162,8 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/strands/events/spotlight1.ejs" />
-        <option value="$PROJECT_DIR$/public/strands/dateevent.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/children/_layout.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/_spotlight1.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/film/_layout.ejs" />
@@ -212,6 +165,8 @@
         <option value="$PROJECT_DIR$/public/includes/_includes-footer.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/_footer.ejs" />
         <option value="$PROJECT_DIR$/public/strands/_layout.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/vaevent.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/visual-art/billnkeith.ejs" />
         <option value="$PROJECT_DIR$/public/strands/timetable.ejs" />
       </list>
     </option>
@@ -287,6 +242,14 @@
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="strands" type="462c0819:PsiDirectoryNode" />
               <item name="events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imagine-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imagine-website" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="strands" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="visual-art" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -425,12 +388,12 @@
       <workItem from="1505239272923" duration="2883000" />
       <workItem from="1505324378379" duration="12876000" />
       <workItem from="1505493068770" duration="6013000" />
-      <workItem from="1505552821895" duration="9053000" />
+      <workItem from="1505552821895" duration="9838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136426000" />
+    <option name="totallyTimeSpent" value="137211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="864" extended-state="0" />
@@ -483,30 +446,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/strands/events/performance/thebes.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/events/visual-art/bernadette.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="46" lean-forward="false" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/strands/events/visual-art/benhen.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/strands/events/visual-art/submerged.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -811,14 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="60" column="135" lean-forward="false" selection-start-line="60" selection-start-column="135" selection-end-line="60" selection-end-column="135" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/includes/_header.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -883,10 +814,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="60" column="135" lean-forward="false" selection-start-line="60" selection-start-column="135" selection-end-line="60" selection-end-column="135" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/visual-art/creative.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/vaevent.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="79" column="145" lean-forward="false" selection-start-line="79" selection-start-column="145" selection-end-line="79" selection-end-column="145" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#6;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#6;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#6;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/visual-art/billnkeith.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/strands/timetable.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="755" column="38" lean-forward="false" selection-start-line="755" selection-start-column="38" selection-end-line="755" selection-end-column="38" />
+        <state relative-caret-position="209">
+          <caret line="770" column="55" lean-forward="false" selection-start-line="770" selection-start-column="55" selection-end-line="770" selection-end-column="55" />
           <folding />
         </state>
       </provider>
