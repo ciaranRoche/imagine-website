@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f37941d-f9de-4031-896d-ce669f69681d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/music/bill-ryder-jones.ejs" afterPath="$PROJECT_DIR$/public/strands/events/music/bill-ryder-jones.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/music/joey-wright.ejs" afterPath="$PROJECT_DIR$/public/strands/events/music/joey-wright.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/music/martin-stephenson.ejs" afterPath="$PROJECT_DIR$/public/strands/events/music/martin-stephenson.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/music/yorkston-thorne-khan.ejs" afterPath="$PROJECT_DIR$/public/strands/events/music/yorkston-thorne-khan.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/trad/music-dance.ejs" afterPath="$PROJECT_DIR$/public/strands/events/trad/music-dance.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,11 +70,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yorkston-thorne-khan.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="yorkston-thorne-khan.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/strands/events/music/yorkston-thorne-khan.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="92" lean-forward="false" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="music-dance.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/strands/events/trad/music-dance.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -159,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/strands/events/children/_layout.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/_spotlight1.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/film/_layout.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/_spotlight2.ejs" />
@@ -210,6 +216,7 @@
         <option value="$PROJECT_DIR$/public/strands/events/music/bill-ryder-jones.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/music/martin-stephenson.ejs" />
         <option value="$PROJECT_DIR$/public/strands/events/music/yorkston-thorne-khan.ejs" />
+        <option value="$PROJECT_DIR$/public/strands/events/trad/music-dance.ejs" />
       </list>
     </option>
   </component>
@@ -293,7 +300,7 @@
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="strands" type="462c0819:PsiDirectoryNode" />
               <item name="events" type="462c0819:PsiDirectoryNode" />
-              <item name="music" type="462c0819:PsiDirectoryNode" />
+              <item name="trad" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -432,12 +439,12 @@
       <workItem from="1505239272923" duration="2883000" />
       <workItem from="1505324378379" duration="12876000" />
       <workItem from="1505493068770" duration="6013000" />
-      <workItem from="1505552821895" duration="10679000" />
+      <workItem from="1505552821895" duration="10944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138052000" />
+    <option name="totallyTimeSpent" value="138317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="1" width="1440" height="864" extended-state="0" />
@@ -490,14 +497,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/strands/events/visual-art/tarak.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/strands/events/trad/tutors.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -898,6 +897,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="92" lean-forward="false" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/strands/events/trad/music-dance.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
           <folding />
         </state>
       </provider>
