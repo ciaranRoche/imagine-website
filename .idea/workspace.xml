@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2f37941d-f9de-4031-896d-ce669f69681d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/battle-of-the-blaas.ejs" afterPath="$PROJECT_DIR$/public/strands/battle-of-the-blaas.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/music/hedge-schools.ejs" afterPath="$PROJECT_DIR$/public/strands/events/music/hedge-schools.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/music/martin-stephenson.ejs" afterPath="$PROJECT_DIR$/public/strands/events/music/martin-stephenson.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/music/oisin-leech.ejs" afterPath="$PROJECT_DIR$/public/strands/events/music/oisin-leech.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/performance/shadow.ejs" afterPath="$PROJECT_DIR$/public/strands/events/performance/shadow.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/visual-art/grads.ejs" afterPath="$PROJECT_DIR$/public/strands/events/visual-art/grads.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/writers/dave-rudden.ejs" afterPath="$PROJECT_DIR$/public/strands/events/writers/dave-rudden.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/events/writers/edward.ejs" afterPath="$PROJECT_DIR$/public/strands/events/writers/edward.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/mevent.ejs" afterPath="$PROJECT_DIR$/public/strands/mevent.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/team.ejs" afterPath="$PROJECT_DIR$/public/strands/team.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/tevent.ejs" afterPath="$PROJECT_DIR$/public/strands/tevent.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/timetable.ejs" afterPath="$PROJECT_DIR$/public/strands/timetable.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/strands/vaevent.ejs" afterPath="$PROJECT_DIR$/public/strands/vaevent.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -454,12 +441,12 @@
       <workItem from="1505324378379" duration="12876000" />
       <workItem from="1505493068770" duration="6013000" />
       <workItem from="1505552821895" duration="11254000" />
-      <workItem from="1505809950017" duration="1184000" />
+      <workItem from="1505809950017" duration="1583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139811000" />
+    <option name="totallyTimeSpent" value="140210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="1" width="1440" height="864" extended-state="6" />
